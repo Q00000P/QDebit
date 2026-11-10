@@ -15,6 +15,7 @@
 - `android/` — Kotlin/Compose. `Core.kt` — порт `core.js` 1:1, `CoreTest.kt` сверяет с эталонами веба. Данные — JSON того же формата, что экспорт веба (импорт/экспорт совместимы).
 - `./build-android.sh` — тесты, сборка debug-APK, установка на телефон по USB.
 - `publish-github.sh` — публикация: коммит, пуш, Pages, тег версии → релиз с APK (GitHub Actions, `.github/workflows/`). История git — в `~/dev/.qdebit.git`, отдельно от папки проекта.
+- `tools/signing-setup.sh` — постоянный ключ подписи (один раз): `~/.qdebit/release.jks`, пароли в `~/.zshenv` (`QDEBIT_KEYSTORE*`), тот же ключ в Secrets репо — APK с мака и из релизов ставятся друг поверх друга. Без переменных сборка подписывается debug-ключом.
 - `grafana/qdebit-dashboard.json` — дашборд (InfluxQL): дебит по скважинам, последний замер, динамика, разброс, таблица.
 
 ## База скважин (v1.1)

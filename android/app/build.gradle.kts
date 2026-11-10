@@ -4,6 +4,10 @@ plugins {
     id("org.jetbrains.kotlin.plugin.serialization")
 }
 
+// Постоянный ключ подписи — из окружения (мак: ~/.zshenv от tools/signing-setup.sh; CI: Secrets репо).
+// Нет переменных — обычный debug-ключ этой машины.
+val qdKeystore = System.getenv("QDEBIT_KEYSTORE")?.let { file(it) }?.takeIf { it.exists() }
+
 android {
     namespace = "org.qdebit.android"
     compileSdk = 36
@@ -12,13 +16,26 @@ android {
         applicationId = "org.qdebit.android"
         minSdk = 26
         targetSdk = 36
-        versionCode = 173
-        versionName = "1.7.3"
+        versionCode = 174
+        versionName = "1.7.4"
+    }
+
+    signingConfigs {
+        if (qdKeystore != null) create("qdebit") {
+            storeFile = qdKeystore
+            storePassword = System.getenv("QDEBIT_KEYSTORE_PASSWORD")
+            keyAlias = System.getenv("QDEBIT_KEY_ALIAS") ?: "qdebit"
+            keyPassword = System.getenv("QDEBIT_KEY_PASSWORD") ?: System.getenv("QDEBIT_KEYSTORE_PASSWORD")
+        }
     }
 
     buildTypes {
+        debug {
+            if (qdKeystore != null) signingConfig = signingConfigs.getByName("qdebit")
+        }
         release {
             isMinifyEnabled = false
+            if (qdKeystore != null) signingConfig = signingConfigs.getByName("qdebit")
         }
     }
     buildFeatures {

@@ -1,6 +1,6 @@
 # Тег vX.Y.Z → тесты Core (Kotlin), сборка APK, релиз с APK и веб-версией.
-# Подпись: если в Secrets репо есть SIGNING_KEYSTORE_B64 / SIGNING_STORE_PASSWORD / SIGNING_KEY_ALIAS / SIGNING_KEY_PASSWORD —
-# APK подписывается твоим ключом; иначе — debug-ключом раннера (каждый релиз — новый ключ, поверх ставится только после удаления).
+# Подпись: Secrets репо SIGNING_KEYSTORE_B64 / SIGNING_STORE_PASSWORD / SIGNING_KEY_ALIAS / SIGNING_KEY_PASSWORD
+# (кладёт tools/signing-setup.sh) → тот же постоянный ключ, что на маке; нет секретов — debug-ключ раннера.
 name: Release
 on:
   push:
@@ -35,38 +35,46 @@ jobs:
           echo "ver=$VER" >> "$GITHUB_OUTPUT"
       - name: Тесты веба (node test.js)
         run: cd web && node test.js
-      - name: Тесты Core и сборка APK
-        working-directory: android
-        run: |
-          chmod +x gradlew
-          ./gradlew --console=plain testDebugUnitTest assembleDebug
-      - name: Подпись своим ключом (если задан в Secrets)
+      - name: Ключ подписи из Secrets
         env:
           KS_B64: ${{ secrets.SIGNING_KEYSTORE_B64 }}
           KS_PASS: ${{ secrets.SIGNING_STORE_PASSWORD }}
           KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
           KEY_PASS: ${{ secrets.SIGNING_KEY_PASSWORD }}
         run: |
-          APK=android/app/build/outputs/apk/debug/app-debug.apk
-          OUT="QDebit-${{ steps.ver.outputs.ver }}.apk"
           if [ -n "$KS_B64" ]; then
-            echo "$KS_B64" | base64 -d > ks.jks
-            BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
-            "$BT/apksigner" sign --ks ks.jks --ks-pass env:KS_PASS --ks-key-alias "$KEY_ALIAS" --key-pass env:KEY_PASS --out "$OUT" "$APK"
-            rm -f ks.jks
-            echo "Подписан своим ключом"
+            echo "$KS_B64" | base64 -d > "$RUNNER_TEMP/qdebit.jks"
+            {
+              echo "QDEBIT_KEYSTORE=$RUNNER_TEMP/qdebit.jks"
+              echo "QDEBIT_KEYSTORE_PASSWORD=$KS_PASS"
+              echo "QDEBIT_KEY_ALIAS=${KEY_ALIAS:-qdebit}"
+              echo "QDEBIT_KEY_PASSWORD=${KEY_PASS:-$KS_PASS}"
+            } >> "$GITHUB_ENV"
+            echo "Постоянный ключ из Secrets"
           else
-            cp "$APK" "$OUT"
-            echo "::warning::Секретов подписи нет — APK с debug-ключом раннера"
+            echo "::warning::Секретов подписи нет — APK с debug-ключом раннера (каждый релиз — новый ключ)"
           fi
-          cp web/QDebit.html "QDebit-${{ steps.ver.outputs.ver }}.html"
+      - name: Тесты Core и сборка APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew --console=plain testDebugUnitTest assembleDebug
+      - name: Проверка подписи, файлы релиза
+        run: |
+          V=${{ steps.ver.outputs.ver }}
+          cp android/app/build/outputs/apk/debug/app-debug.apk "QDebit-$V.apk"
+          cp web/QDebit.html "QDebit-$V.html"
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          "$BT/apksigner" verify --print-certs "QDebit-$V.apk" | grep -E "DN|SHA-256" | tee cert.txt
+          rm -f "$RUNNER_TEMP/qdebit.jks"
       - name: Релиз
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           V=${{ steps.ver.outputs.ver }}
           T="${GITHUB_REF_NAME}"; [ "$GITHUB_REF_TYPE" = tag ] || T="v$V"
-          NOTES="Android: QDebit-$V.apk (Android 8+). Веб: QDebit-$V.html — открыть в браузере, данные хранятся в браузере. Онлайн: https://q00000p.github.io/QDebit/"
+          FP=$(grep -m1 "SHA-256" cert.txt | sed 's/.*: //')
+          NOTES="Android: QDebit-$V.apk (Android 8+), подпись SHA-256: $FP. Веб: QDebit-$V.html — открыть в браузере, данные хранятся в браузере. Онлайн: https://q00000p.github.io/QDebit/"
           if gh release view "$T" >/dev/null 2>&1; then
             gh release upload "$T" "QDebit-$V.apk" "QDebit-$V.html" --clobber
           else
