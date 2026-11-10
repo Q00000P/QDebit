@@ -32,8 +32,14 @@ VER=$(grep -m1 'versionName' "$WT/android/app/build.gradle.kts" | sed -E 's/.*"(
 echo "QDebit $VER  ·  папка: $WT  ·  история: $GD"
 
 # 1. токен живой?
-WHO=$(curl -sS "${H[@]}" "$API/user" | python3 -c 'import sys,json; print(json.load(sys.stdin).get("login",""))')
-[ -n "$WHO" ] || { echo "✗ GitHub не принял токен (GITHUB_TOKEN)."; exit 1; }
+UC=$(curl -sS -o /tmp/qdebit-user.json -w '%{http_code}' "${H[@]}" "$API/user")
+WHO=$(python3 -c 'import json; print(json.load(open("/tmp/qdebit-user.json")).get("login",""))' 2>/dev/null || true)
+if [ -z "$WHO" ]; then
+  echo "✗ GitHub не принял токен: HTTP $UC, $(python3 -c 'import json; print(json.load(open("/tmp/qdebit-user.json")).get("message",""))' 2>/dev/null)"
+  echo "  в окружении: ${GITHUB_TOKEN[1,7]}… (${#GITHUB_TOKEN} симв.)  — github_pat_AAAAABBBBB/ghp_XXXXXYYYYY значит, что плашку не заменили"
+  echo "  где задан: $(grep -ln 'GITHUB_TOKEN' ~/.zshenv ~/.zprofile ~/.zshrc 2>/dev/null | tr '\n' ' ')"
+  exit 1
+fi
 echo "✓ токен: $WHO"
 
 # 2. репо
@@ -67,7 +73,9 @@ fi
 g config core.bare false
 g config status.showUntrackedFiles normal
 
-# 4. коммит (всё, что не в .gitignore)
+# 4. коммит (всё, что не в .gitignore). Папка — истина: новый коммит ложится поверх того, что на GitHub,
+#    и его содержимое = текущей папке (правки, сделанные прямо на GitHub, должны быть и в архиве — иначе откатятся)
+g fetch -q origin main 2>/dev/null && g reset -q --soft FETCH_HEAD || true
 g add -A
 if g diff --cached --quiet 2>/dev/null; then
   echo "• изменений нет"
