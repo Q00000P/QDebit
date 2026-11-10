@@ -1,0 +1,274 @@
+{
+ "__inputs": [
+  {
+   "name": "DS_INFLUXDB",
+   "label": "InfluxDB",
+   "type": "datasource",
+   "pluginId": "influxdb",
+   "pluginName": "InfluxDB"
+  }
+ ],
+ "title": "QDebit — дебит скважин",
+ "uid": "qdebit",
+ "tags": [
+  "qdebit",
+  "скважина"
+ ],
+ "timezone": "browser",
+ "schemaVersion": 39,
+ "version": 1,
+ "time": {
+  "from": "now-1y",
+  "to": "now"
+ },
+ "refresh": "",
+ "templating": {
+  "list": [
+   {
+    "name": "well",
+    "label": "Скважина",
+    "type": "query",
+    "datasource": {
+     "type": "influxdb",
+     "uid": "${DS_INFLUXDB}"
+    },
+    "query": "SHOW TAG VALUES FROM \"qdebit_flow\" WITH KEY = \"well_name\"",
+    "multi": true,
+    "includeAll": true,
+    "allValue": ".*",
+    "current": {
+     "selected": true,
+     "text": [
+      "All"
+     ],
+     "value": [
+      "$__all"
+     ]
+    },
+    "refresh": 2,
+    "sort": 1
+   }
+  ]
+ },
+ "panels": [
+  {
+   "type": "timeseries",
+   "title": "Дебит по скважинам, м³/ч",
+   "gridPos": {
+    "x": 0,
+    "y": 0,
+    "w": 16,
+    "h": 9
+   },
+   "datasource": {
+    "type": "influxdb",
+    "uid": "${DS_INFLUXDB}"
+   },
+   "targets": [
+    {
+     "datasource": {
+      "type": "influxdb",
+      "uid": "${DS_INFLUXDB}"
+     },
+     "refId": "A",
+     "rawQuery": true,
+     "query": "SELECT \"q\" FROM \"qdebit_flow\" WHERE $timeFilter AND \"well_name\" =~ /^$well$/ GROUP BY \"well_name\"",
+     "resultFormat": "time_series",
+     "alias": "$tag_well_name"
+    }
+   ],
+   "fieldConfig": {
+    "defaults": {
+     "unit": "m³/h",
+     "decimals": 2,
+     "custom": {
+      "drawStyle": "line",
+      "lineWidth": 2,
+      "showPoints": "always",
+      "pointSize": 7,
+      "spanNulls": true
+     }
+    },
+    "overrides": []
+   },
+   "options": {
+    "legend": {
+     "displayMode": "list",
+     "placement": "bottom"
+    },
+    "tooltip": {
+     "mode": "multi"
+    }
+   },
+   "id": 1
+  },
+  {
+   "type": "stat",
+   "title": "Последний замер",
+   "gridPos": {
+    "x": 16,
+    "y": 0,
+    "w": 8,
+    "h": 9
+   },
+   "datasource": {
+    "type": "influxdb",
+    "uid": "${DS_INFLUXDB}"
+   },
+   "targets": [
+    {
+     "datasource": {
+      "type": "influxdb",
+      "uid": "${DS_INFLUXDB}"
+     },
+     "refId": "A",
+     "rawQuery": true,
+     "query": "SELECT last(\"q\") FROM \"qdebit_flow\" WHERE $timeFilter AND \"well_name\" =~ /^$well$/ GROUP BY \"well_name\"",
+     "resultFormat": "time_series",
+     "alias": "$tag_well_name"
+    }
+   ],
+   "fieldConfig": {
+    "defaults": {
+     "unit": "m³/h",
+     "decimals": 2
+    },
+    "overrides": []
+   },
+   "options": {
+    "reduceOptions": {
+     "calcs": [
+      "lastNotNull"
+     ]
+    },
+    "textMode": "value_and_name",
+    "colorMode": "none",
+    "graphMode": "none"
+   },
+   "id": 2
+  },
+  {
+   "type": "timeseries",
+   "title": "Динамический уровень при замере, м",
+   "gridPos": {
+    "x": 0,
+    "y": 9,
+    "w": 12,
+    "h": 8
+   },
+   "datasource": {
+    "type": "influxdb",
+    "uid": "${DS_INFLUXDB}"
+   },
+   "targets": [
+    {
+     "datasource": {
+      "type": "influxdb",
+      "uid": "${DS_INFLUXDB}"
+     },
+     "refId": "A",
+     "rawQuery": true,
+     "query": "SELECT \"dyn\" FROM \"qdebit_flow\" WHERE $timeFilter AND \"well_name\" =~ /^$well$/ GROUP BY \"well_name\"",
+     "resultFormat": "time_series",
+     "alias": "$tag_well_name"
+    }
+   ],
+   "fieldConfig": {
+    "defaults": {
+     "unit": "lengthm",
+     "decimals": 1,
+     "custom": {
+      "drawStyle": "line",
+      "showPoints": "always",
+      "pointSize": 7,
+      "spanNulls": true,
+      "transform": "negative-Y"
+     }
+    },
+    "overrides": []
+   },
+   "id": 3
+  },
+  {
+   "type": "timeseries",
+   "title": "Разброс вёдер и погрешность, %",
+   "gridPos": {
+    "x": 12,
+    "y": 9,
+    "w": 12,
+    "h": 8
+   },
+   "datasource": {
+    "type": "influxdb",
+    "uid": "${DS_INFLUXDB}"
+   },
+   "targets": [
+    {
+     "datasource": {
+      "type": "influxdb",
+      "uid": "${DS_INFLUXDB}"
+     },
+     "refId": "A",
+     "rawQuery": true,
+     "query": "SELECT \"cv\" AS \"разброс\", \"err\" AS \"погрешность\" FROM \"qdebit_flow\" WHERE $timeFilter AND \"well_name\" =~ /^$well$/ GROUP BY \"well_name\"",
+     "resultFormat": "time_series",
+     "alias": "$tag_well_name $col"
+    }
+   ],
+   "fieldConfig": {
+    "defaults": {
+     "unit": "percent",
+     "decimals": 1,
+     "custom": {
+      "drawStyle": "points",
+      "pointSize": 7
+     }
+    },
+    "overrides": []
+   },
+   "id": 4
+  },
+  {
+   "type": "table",
+   "title": "Замеры",
+   "gridPos": {
+    "x": 0,
+    "y": 17,
+    "w": 24,
+    "h": 10
+   },
+   "datasource": {
+    "type": "influxdb",
+    "uid": "${DS_INFLUXDB}"
+   },
+   "targets": [
+    {
+     "datasource": {
+      "type": "influxdb",
+      "uid": "${DS_INFLUXDB}"
+     },
+     "refId": "A",
+     "rawQuery": true,
+     "query": "SELECT \"q\" AS \"м³/ч\",\"lpm\" AS \"л/мин\",\"n\" AS \"вёдер\",\"cv\" AS \"разброс %\",\"dyn\" AS \"дин. м\",\"pump_min\" AS \"откачка мин\",\"note\" AS \"заметка\" FROM \"qdebit_flow\" WHERE $timeFilter AND \"well_name\" =~ /^$well$/ GROUP BY \"well_name\" ORDER BY time DESC LIMIT 300",
+     "resultFormat": "table"
+    }
+   ],
+   "fieldConfig": {
+    "defaults": {
+     "decimals": 2
+    },
+    "overrides": []
+   },
+   "options": {
+    "showHeader": true
+   },
+   "transformations": [
+    {
+     "id": "organize",
+     "options": {}
+    }
+   ],
+   "id": 5
+  }
+ ]
+}

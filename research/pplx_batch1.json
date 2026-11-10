@@ -1,0 +1,2693 @@
+[
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 2-34",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    41
+   ],
+   [
+    1,
+    40
+   ],
+   [
+    1.5,
+    37
+   ],
+   [
+    2,
+    34
+   ],
+   [
+    2.5,
+    29
+   ],
+   [
+    3,
+    22
+   ],
+   [
+    4.5,
+    6
+   ]
+  ],
+  "hmax": 41,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 0.37,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Q взята из строки м³/час, а не из округлённой строки л/мин. 4.5 м³/ч — последняя табличная подача, не установленный Qmax. Мощность опубликована без разграничения P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 2-56",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    68
+   ],
+   [
+    1,
+    66
+   ],
+   [
+    1.5,
+    63
+   ],
+   [
+    2,
+    56
+   ],
+   [
+    2.5,
+    48
+   ],
+   [
+    3,
+    36
+   ],
+   [
+    4.5,
+    8
+   ]
+  ],
+  "hmax": 68,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 0.55,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Последняя табличная подача не объявлена Qmax. Мощность опубликована без разграничения P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 2-73",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    87
+   ],
+   [
+    1,
+    86
+   ],
+   [
+    1.5,
+    82
+   ],
+   [
+    2,
+    73
+   ],
+   [
+    2.5,
+    63
+   ],
+   [
+    3,
+    47
+   ],
+   [
+    4.5,
+    9
+   ]
+  ],
+  "hmax": 87,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 0.75,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Последняя табличная подача не объявлена Qmax. Мощность опубликована без разграничения P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 2-89",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    109
+   ],
+   [
+    1,
+    106
+   ],
+   [
+    1.5,
+    99
+   ],
+   [
+    2,
+    89
+   ],
+   [
+    2.5,
+    77
+   ],
+   [
+    3,
+    57
+   ],
+   [
+    4.5,
+    11
+   ]
+  ],
+  "hmax": 109,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 0.9,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Последняя табличная подача не объявлена Qmax. Мощность опубликована без разграничения P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 2-100",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    123
+   ],
+   [
+    1,
+    120
+   ],
+   [
+    1.5,
+    111
+   ],
+   [
+    2,
+    100
+   ],
+   [
+    2.5,
+    87
+   ],
+   [
+    3,
+    64
+   ],
+   [
+    4.5,
+    12
+   ]
+  ],
+  "hmax": 123,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 1.1,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Последняя табличная подача не объявлена Qmax. Мощность опубликована без разграничения P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 2-112",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    135
+   ],
+   [
+    1,
+    133
+   ],
+   [
+    1.5,
+    125
+   ],
+   [
+    2,
+    112
+   ],
+   [
+    2.5,
+    96
+   ],
+   [
+    3,
+    72
+   ],
+   [
+    4.5,
+    13
+   ]
+  ],
+  "hmax": 135,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 1.5,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Последняя табличная подача не объявлена Qmax. Мощность опубликована без разграничения P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 2-157",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    189
+   ],
+   [
+    1,
+    186
+   ],
+   [
+    1.5,
+    175
+   ],
+   [
+    2,
+    157
+   ],
+   [
+    2.5,
+    134
+   ],
+   [
+    3,
+    101
+   ],
+   [
+    4.5,
+    16
+   ]
+  ],
+  "hmax": 189,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 2.2,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Последняя табличная подача не объявлена Qmax. Мощность опубликована без разграничения P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 3-40",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    61
+   ],
+   [
+    2,
+    50
+   ],
+   [
+    2.5,
+    46
+   ],
+   [
+    3,
+    40
+   ],
+   [
+    3.5,
+    37
+   ],
+   [
+    4,
+    25
+   ],
+   [
+    5,
+    7
+   ],
+   [
+    5.8,
+    2
+   ]
+  ],
+  "hmax": 61,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.55,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Точный наружный диаметр в данной записи не извлечён. 5.8 м³/ч — последняя табличная подача, не установленный Qmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 3-55",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    83
+   ],
+   [
+    2,
+    68
+   ],
+   [
+    2.5,
+    62
+   ],
+   [
+    3,
+    55
+   ],
+   [
+    3.5,
+    50
+   ],
+   [
+    4,
+    35
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    5.8,
+    4
+   ]
+  ],
+  "hmax": 83,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.75,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Последняя табличная подача не объявлена Qmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 3-70",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    105
+   ],
+   [
+    2,
+    88
+   ],
+   [
+    2.5,
+    79
+   ],
+   [
+    3,
+    70
+   ],
+   [
+    3.5,
+    64
+   ],
+   [
+    4,
+    56
+   ],
+   [
+    5,
+    29
+   ],
+   [
+    5.8,
+    6
+   ]
+  ],
+  "hmax": 105,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.9,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Последняя табличная подача не объявлена Qmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 3-80",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    120
+   ],
+   [
+    2,
+    101
+   ],
+   [
+    2.5,
+    90
+   ],
+   [
+    3,
+    80
+   ],
+   [
+    3.5,
+    73
+   ],
+   [
+    4,
+    64
+   ],
+   [
+    5,
+    33
+   ],
+   [
+    5.8,
+    6
+   ]
+  ],
+  "hmax": 120,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.1,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Последняя табличная подача не объявлена Qmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 3-90",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    135
+   ],
+   [
+    2,
+    113
+   ],
+   [
+    2.5,
+    102
+   ],
+   [
+    3,
+    90
+   ],
+   [
+    3.5,
+    82
+   ],
+   [
+    4,
+    73
+   ],
+   [
+    5,
+    38
+   ],
+   [
+    5.8,
+    8
+   ]
+  ],
+  "hmax": 135,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.5,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Последняя табличная подача не объявлена Qmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 3-115",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    173
+   ],
+   [
+    2,
+    143
+   ],
+   [
+    2.5,
+    131
+   ],
+   [
+    3,
+    115
+   ],
+   [
+    3.5,
+    105
+   ],
+   [
+    4,
+    91
+   ],
+   [
+    5,
+    44
+   ],
+   [
+    5.8,
+    8
+   ]
+  ],
+  "hmax": 173,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 2.2,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Последняя табличная подача не объявлена Qmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 3-150",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    215
+   ],
+   [
+    2,
+    184
+   ],
+   [
+    2.5,
+    170
+   ],
+   [
+    3,
+    150
+   ],
+   [
+    3.5,
+    135
+   ],
+   [
+    4,
+    110
+   ],
+   [
+    5,
+    45
+   ],
+   [
+    5.8,
+    8
+   ]
+  ],
+  "hmax": 215,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 3.0,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатная стр. 88)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Последняя табличная подача не объявлена Qmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 4-76",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    100
+   ],
+   [
+    1,
+    99
+   ],
+   [
+    2,
+    90
+   ],
+   [
+    3,
+    84
+   ],
+   [
+    3.5,
+    81
+   ],
+   [
+    4,
+    76
+   ],
+   [
+    4.5,
+    71
+   ],
+   [
+    5,
+    64
+   ],
+   [
+    6,
+    48
+   ],
+   [
+    7,
+    30
+   ],
+   [
+    8,
+    3
+   ]
+  ],
+  "hmax": 100,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 8,
+  "h_at_qmax": 3,
+  "diam_mm": 98,
+  "power_kw": 1.5,
+  "power_type": null,
+  "current_a": 8.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатные стр. 87–89; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Максимальная подача 8 м³/ч опубликована отдельно; напор при ней взят из таблицы H(Q). Мощность не разграничена как P1/P2."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 4-104",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    133
+   ],
+   [
+    1,
+    133
+   ],
+   [
+    2,
+    126
+   ],
+   [
+    3,
+    116
+   ],
+   [
+    3.5,
+    111
+   ],
+   [
+    4,
+    104
+   ],
+   [
+    4.5,
+    98
+   ],
+   [
+    5,
+    88
+   ],
+   [
+    6,
+    69
+   ],
+   [
+    7,
+    45
+   ],
+   [
+    8,
+    5
+   ]
+  ],
+  "hmax": 133,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 8,
+  "h_at_qmax": 5,
+  "diam_mm": 98,
+  "power_kw": 2.2,
+  "power_type": null,
+  "current_a": 10.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатные стр. 87–89; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Участок H=133 м при Q=0 и 1 сохранён как в таблице; характеристика не возрастает. Максимальная подача опубликована отдельно. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 4-132",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    173
+   ],
+   [
+    1,
+    168
+   ],
+   [
+    2,
+    157
+   ],
+   [
+    3,
+    144
+   ],
+   [
+    3.5,
+    136
+   ],
+   [
+    4,
+    132
+   ],
+   [
+    4.5,
+    119
+   ],
+   [
+    5,
+    108
+   ],
+   [
+    6,
+    80
+   ],
+   [
+    7,
+    46
+   ],
+   [
+    8,
+    5
+   ]
+  ],
+  "hmax": 173,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 8,
+  "h_at_qmax": 5,
+  "diam_mm": 98,
+  "power_kw": 3.0,
+  "power_type": null,
+  "current_a": 15.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатные стр. 87–89; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Максимальная подача опубликована отдельно; H при Qmax взят из таблицы. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 4-142",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    183
+   ],
+   [
+    1,
+    183
+   ],
+   [
+    2,
+    173
+   ],
+   [
+    3,
+    158
+   ],
+   [
+    3.5,
+    150
+   ],
+   [
+    4,
+    142
+   ],
+   [
+    4.5,
+    130
+   ],
+   [
+    5,
+    120
+   ],
+   [
+    6,
+    92
+   ],
+   [
+    7,
+    57
+   ],
+   [
+    8,
+    6
+   ]
+  ],
+  "hmax": 183,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 8,
+  "h_at_qmax": 6,
+  "diam_mm": 98,
+  "power_kw": 3.0,
+  "power_type": null,
+  "current_a": 15.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатные стр. 87–89; габариты — таблица ECO)",
+  "graph_url": null,
+  "note": "Каталог 2026. Участок H=183 м при Q=0 и 1 сохранён как в таблице. Точка [4,142] присутствует, но отдельное текстовое подтверждение её номинальности в выгрузку не извлечено. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 5-60",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    76
+   ],
+   [
+    3,
+    73
+   ],
+   [
+    4,
+    70
+   ],
+   [
+    5,
+    60
+   ],
+   [
+    6,
+    52
+   ],
+   [
+    8,
+    22
+   ],
+   [
+    9,
+    9
+   ]
+  ],
+  "hmax": 76,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 9,
+  "h_at_qmax": 9,
+  "diam_mm": null,
+  "power_kw": 1.5,
+  "power_type": null,
+  "current_a": 8.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатные стр. 87–89)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма; число 5 в ECO 5-60 не использовано как диаметр. Qmax опубликован отдельно. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 5-75",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    96
+   ],
+   [
+    3,
+    91
+   ],
+   [
+    4,
+    87
+   ],
+   [
+    5,
+    75
+   ],
+   [
+    6,
+    66
+   ],
+   [
+    8,
+    27
+   ],
+   [
+    9,
+    10
+   ]
+  ],
+  "hmax": 96,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 9,
+  "h_at_qmax": 10,
+  "diam_mm": null,
+  "power_kw": 2.2,
+  "power_type": null,
+  "current_a": 10.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатные стр. 87–89)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Qmax опубликован отдельно. P1/P2 не разграничены."
+ },
+ {
+  "brand": "UNIPUMP",
+  "name": "UNIPUMP ECO 5-105",
+  "type": "sub",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    134
+   ],
+   [
+    3,
+    128
+   ],
+   [
+    4,
+    122
+   ],
+   [
+    5,
+    105
+   ],
+   [
+    6,
+    92
+   ],
+   [
+    8,
+    38
+   ],
+   [
+    9,
+    12
+   ]
+  ],
+  "hmax": 134,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 9,
+  "h_at_qmax": 12,
+  "diam_mm": null,
+  "power_kw": 3.0,
+  "power_type": null,
+  "current_a": 15.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/unipump/38474/142039.pdf?download (печатные стр. 87–89)",
+  "graph_url": null,
+  "note": "Каталог 2026, раздел погружных насосов 4 дюйма. Qmax опубликован отдельно. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Speroni",
+  "name": "Speroni CAM 40",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0.6,
+    38
+   ],
+   [
+    0.9,
+    36
+   ],
+   [
+    1.2,
+    34
+   ],
+   [
+    1.5,
+    32
+   ],
+   [
+    1.8,
+    29
+   ],
+   [
+    2.1,
+    27
+   ],
+   [
+    2.4,
+    25
+   ],
+   [
+    2.7,
+    22
+   ],
+   [
+    3,
+    19
+   ]
+  ],
+  "hmax": null,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": "P1",
+  "current_a": 3.8,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://medias.descours-cabaud.com/d180001/medias/docus/281/speroni-cam40-100.pdf (печатная стр. 19)",
+  "graph_url": null,
+  "note": "Каталог 2025. В той же строке P2=0.55 кВт; в power_kw записана P1. Таблица начинается с Q=0.6; Hmax и Qmax из её крайних точек не выведены. Однофазное исполнение."
+ },
+ {
+  "brand": "Speroni",
+  "name": "Speroni CAM 60",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0.6,
+    42
+   ],
+   [
+    0.9,
+    38
+   ],
+   [
+    1.2,
+    36
+   ],
+   [
+    1.5,
+    33
+   ],
+   [
+    1.8,
+    30
+   ],
+   [
+    2.1,
+    27
+   ],
+   [
+    2.4,
+    26
+   ],
+   [
+    2.7,
+    23
+   ],
+   [
+    3,
+    20
+   ]
+  ],
+  "hmax": null,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": "P1",
+  "current_a": 3.8,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://medias.descours-cabaud.com/d180001/medias/docus/281/speroni-cam40-100.pdf (печатная стр. 19)",
+  "graph_url": null,
+  "note": "Каталог 2025. P2=0.6 кВт; в power_kw записана P1. Нет табличной точки Q=0; последний Q не объявлен максимальным. Однофазное исполнение."
+ },
+ {
+  "brand": "Speroni",
+  "name": "Speroni CAM 66",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0.6,
+    46
+   ],
+   [
+    0.9,
+    43
+   ],
+   [
+    1.2,
+    40
+   ],
+   [
+    1.5,
+    37
+   ],
+   [
+    1.8,
+    35
+   ],
+   [
+    2.1,
+    33
+   ],
+   [
+    2.4,
+    30
+   ],
+   [
+    2.7,
+    29
+   ],
+   [
+    3,
+    25
+   ]
+  ],
+  "hmax": null,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.0,
+  "power_type": "P1",
+  "current_a": 4.9,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://medias.descours-cabaud.com/d180001/medias/docus/281/speroni-cam40-100.pdf (печатная стр. 19)",
+  "graph_url": null,
+  "note": "Каталог 2025. P2=0.75 кВт; в power_kw записана P1. Использован ток однофазного CAM, а не трёхфазного CA. Нет табличной точки Q=0; последний Q не объявлен максимальным."
+ },
+ {
+  "brand": "Calpeda",
+  "name": "Calpeda NGXM 2",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    45
+   ],
+   [
+    0.3,
+    40
+   ],
+   [
+    1,
+    30
+   ],
+   [
+    2,
+    20.5
+   ],
+   [
+    2.4,
+    18
+   ]
+  ],
+  "hmax": 45,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.7,
+  "power_type": "P1",
+  "current_a": 3.3,
+  "suction_m": 9,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.calpeda.co.th/PDF/Domestic/NGX.pdf (печатные стр. 161–162)",
+  "graph_url": null,
+  "note": "Лист 01/2011. Подтверждение продажи именно этой редакции в РФ в 2015–2026 не получено. Однофазный NGXM; P1 максимальная потребляемая, P2=0.45 кВт. Qmax не приравнен к концу таблицы."
+ },
+ {
+  "brand": "Calpeda",
+  "name": "Calpeda NGXM 3/A",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    53
+   ],
+   [
+    0.3,
+    48
+   ],
+   [
+    1,
+    39
+   ],
+   [
+    2,
+    30
+   ],
+   [
+    2.4,
+    27
+   ],
+   [
+    3,
+    22
+   ]
+  ],
+  "hmax": 53,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.9,
+  "power_type": "P1",
+  "current_a": 4.2,
+  "suction_m": 9,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.calpeda.co.th/PDF/Domestic/NGX.pdf (печатные стр. 161–162)",
+  "graph_url": null,
+  "note": "Лист 01/2011; российская поставка этой редакции в 2015–2026 отдельно не подтверждена. P1 максимальная потребляемая; P2=0.55 кВт. Конец таблицы не объявлен Qmax."
+ },
+ {
+  "brand": "Calpeda",
+  "name": "Calpeda NGXM 4/A",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    42
+   ],
+   [
+    0.3,
+    40
+   ],
+   [
+    1,
+    36
+   ],
+   [
+    2,
+    31
+   ],
+   [
+    2.4,
+    28
+   ],
+   [
+    3,
+    25
+   ],
+   [
+    4,
+    21
+   ],
+   [
+    4.5,
+    19.5
+   ],
+   [
+    5,
+    18
+   ]
+  ],
+  "hmax": 42,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.0,
+  "power_type": "P1",
+  "current_a": 5.4,
+  "suction_m": 9,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.calpeda.co.th/PDF/Domestic/NGX.pdf (печатные стр. 161–162)",
+  "graph_url": null,
+  "note": "Лист 01/2011; российская поставка этой редакции в 2015–2026 отдельно не подтверждена. P1 максимальная потребляемая; P2=0.75 кВт. Конец таблицы не объявлен Qmax."
+ },
+ {
+  "brand": "Calpeda",
+  "name": "Calpeda NGXM 5/18",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    50.5
+   ],
+   [
+    0.3,
+    47.5
+   ],
+   [
+    1,
+    45
+   ],
+   [
+    2,
+    39.5
+   ],
+   [
+    2.4,
+    37.7
+   ],
+   [
+    3,
+    35
+   ],
+   [
+    4,
+    30.8
+   ],
+   [
+    4.5,
+    29
+   ],
+   [
+    5,
+    27
+   ],
+   [
+    5.5,
+    25.5
+   ],
+   [
+    6,
+    24
+   ]
+  ],
+  "hmax": 50.5,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.6,
+  "power_type": "P1",
+  "current_a": 7.4,
+  "suction_m": 9,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.calpeda.co.th/PDF/Domestic/NGX.pdf (печатные стр. 161–162)",
+  "graph_url": null,
+  "note": "Лист 01/2011; российская поставка этой редакции в 2015–2026 отдельно не подтверждена. P1 максимальная потребляемая; P2=1.1 кВт. Конец таблицы не объявлен Qmax."
+ },
+ {
+  "brand": "Calpeda",
+  "name": "Calpeda NGXM 5/22",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    37.5
+   ],
+   [
+    0.3,
+    36
+   ],
+   [
+    1,
+    34.7
+   ],
+   [
+    2,
+    32
+   ],
+   [
+    2.4,
+    31
+   ],
+   [
+    3,
+    29.5
+   ],
+   [
+    4,
+    27
+   ],
+   [
+    4.5,
+    26
+   ],
+   [
+    5,
+    24.8
+   ],
+   [
+    5.5,
+    23.7
+   ],
+   [
+    6,
+    22.8
+   ],
+   [
+    6.5,
+    22
+   ],
+   [
+    7,
+    21
+   ],
+   [
+    8,
+    19
+   ],
+   [
+    8.4,
+    18.3
+   ]
+  ],
+  "hmax": 37.5,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.6,
+  "power_type": "P1",
+  "current_a": 7.4,
+  "suction_m": 9,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.calpeda.co.th/PDF/Domestic/NGX.pdf (печатные стр. 161–162)",
+  "graph_url": null,
+  "note": "Лист 01/2011; российская поставка этой редакции в 2015–2026 отдельно не подтверждена. P1 максимальная потребляемая; P2=1.1 кВт. Конец таблицы не объявлен Qmax."
+ },
+ {
+  "brand": "Calpeda",
+  "name": "Calpeda NGXM 6/18",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    58
+   ],
+   [
+    0.3,
+    54.7
+   ],
+   [
+    1,
+    51.5
+   ],
+   [
+    2,
+    46
+   ],
+   [
+    2.4,
+    44
+   ],
+   [
+    3,
+    41.3
+   ],
+   [
+    4,
+    37
+   ],
+   [
+    4.5,
+    34.7
+   ],
+   [
+    5,
+    32.5
+   ],
+   [
+    5.5,
+    30.5
+   ],
+   [
+    6,
+    28.5
+   ]
+  ],
+  "hmax": 58,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 2.0,
+  "power_type": "P1",
+  "current_a": 9.2,
+  "suction_m": 9,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.calpeda.co.th/PDF/Domestic/NGX.pdf (печатные стр. 161–162)",
+  "graph_url": null,
+  "note": "Лист 01/2011; российская поставка этой редакции в 2015–2026 отдельно не подтверждена. P1 максимальная потребляемая; P2=1.5 кВт. Конец таблицы не объявлен Qmax."
+ },
+ {
+  "brand": "Calpeda",
+  "name": "Calpeda NGXM 6/22",
+  "type": "surface",
+  "quality": "table",
+  "points": [
+   [
+    0,
+    46.5
+   ],
+   [
+    0.3,
+    45
+   ],
+   [
+    1,
+    43.5
+   ],
+   [
+    2,
+    40.5
+   ],
+   [
+    2.4,
+    39.3
+   ],
+   [
+    3,
+    37.5
+   ],
+   [
+    4,
+    35
+   ],
+   [
+    4.5,
+    33.5
+   ],
+   [
+    5,
+    32.5
+   ],
+   [
+    5.5,
+    31.2
+   ],
+   [
+    6,
+    30
+   ],
+   [
+    6.5,
+    28.5
+   ],
+   [
+    7,
+    27.5
+   ],
+   [
+    8,
+    25.5
+   ],
+   [
+    8.4,
+    24.5
+   ]
+  ],
+  "hmax": 46.5,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 2.0,
+  "power_type": "P1",
+  "current_a": 9.2,
+  "suction_m": 9,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.calpeda.co.th/PDF/Domestic/NGX.pdf (печатные стр. 161–162)",
+  "graph_url": null,
+  "note": "Лист 01/2011; российская поставка этой редакции в 2015–2026 отдельно не подтверждена. P1 максимальная потребляемая; P2=1.5 кВт. Конец таблицы не объявлен Qmax."
+ },
+ {
+  "brand": "Denzel",
+  "name": "Denzel DWS-3-75 97250",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 75,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.6,
+  "h_at_qmax": null,
+  "diam_mm": 72,
+  "power_kw": 0.5,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://denzel-shop.ru/category/skvazhinnye-nasosy/",
+  "graph_url": null,
+  "note": "Российская карточка продавца. Винтовой насос. Qmax=1600 л/ч ÷1000. Мощность 500 Вт, P1/P2 не разграничены. Кривая и номинальная точка не получены."
+ },
+ {
+  "brand": "Denzel",
+  "name": "Denzel DWS-3,5-100 97251",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 100,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.7,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://denzel-shop.ru/category/skvazhinnye-nasosy/",
+  "graph_url": null,
+  "note": "Российская карточка продавца. Винтовой, номинальный типоразмер 3.5 дюйма; фактический диаметр не извлечён. Qmax=1700 л/ч ÷1000. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Denzel",
+  "name": "Denzel DWS-4-100 97252",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 100,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.7,
+  "h_at_qmax": null,
+  "diam_mm": 95,
+  "power_kw": 0.8,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://denzel-shop.ru/category/skvazhinnye-nasosy/",
+  "graph_url": null,
+  "note": "Российская карточка продавца. Винтовой насос. Qmax=1700 л/ч ÷1000. Использованы 800 Вт из данной карточки; P1/P2 не разграничены. Не смешивать с отдельными карточками, где подача округлена до 1.68 м³/ч."
+ },
+ {
+  "brand": "Denzel",
+  "name": "Denzel DWS-4-150 97254",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 150,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 2.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.3,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://denzel-power.com/catalog/nasosnoe_oborudovanie/skvazhinnye_nasosy/886/",
+  "graph_url": null,
+  "note": "Официальная карточка. Винтовой насос типоразмера 4 дюйма; фактический диаметр не извлечён. Qmax=2000 л/ч ÷1000. Мощность 1300 Вт без обозначения P1/P2. Глубина погружения не записывалась в suction_m."
+ },
+ {
+  "brand": "Denzel",
+  "name": "Denzel DWC-3-60 97255",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 60,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.3,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://denzel-shop.ru/category/skvazhinnye-nasosy/",
+  "graph_url": null,
+  "note": "Российская карточка продавца. Центробежный насос типоразмера 3 дюйма; фактический диаметр не извлечён. Qmax=3300 л/ч ÷1000. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Denzel",
+  "name": "Denzel DWC-4-80 97256",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 80,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 5.7,
+  "h_at_qmax": null,
+  "diam_mm": 102,
+  "power_kw": 1.5,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 110,
+  "src": "https://www.vseinstrumenti.ru/product/skvazhinnyj-tsentrobezhnyj-nasos-denzel-dwc-4-80-97256-1062400/",
+  "graph_url": null,
+  "note": "Российская карточка продавца. Центробежный насос. Qmax=95 л/мин ×0.06. Минимальный диаметр скважины опубликован отдельно как 110 мм. Мощность 1500 Вт без разграничения P1/P2."
+ },
+ {
+  "brand": "Denzel",
+  "name": "Denzel DWC-4-140 97258",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 140,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 6.0,
+  "h_at_qmax": null,
+  "diam_mm": 102,
+  "power_kw": 2.0,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://denzel-shop.ru/category/skvazhinnye-nasosy/",
+  "graph_url": null,
+  "note": "Российская карточка продавца. Центробежный насос. Qmax=6000 л/ч ÷1000. Мощность 2000 Вт без разграничения P1/P2. Кривая и номинальная точка не получены."
+ },
+ {
+  "brand": "Patriot",
+  "name": "Patriot SP 3250 S 315302463",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 80,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.92,
+  "h_at_qmax": null,
+  "diam_mm": 98,
+  "power_kw": 0.75,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 110,
+  "src": "https://ryvok.ru/sadovaja-tehnika/nasosy/patriot-sp-3250-s/ ; https://www.citilink.ru/product/skvazhinnyi-nasos-patriot-sp-3250-s-vintovoi-315302463-479427/obzory/",
+  "graph_url": null,
+  "note": "Винтовой насос. Qmax=1920 л/ч ÷1000. Мощность 750 Вт без обозначения P1/P2. В других торговых описаниях встречается Hmax=100 м; выбранное значение 80 м подтверждается двумя указанными карточками. Полная H(Q) не получена."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi ELICA 400",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 50,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 2.1,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.4,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/ ; https://megamarket.ru/catalog/nasosy/set-quattro-elementi-dlya-chistoy-vody/",
+  "graph_url": null,
+  "note": "Винтовой скважинный насос. Qmax=35 л/мин ×0.06; также встречается прямое указание 2100 л/ч. Мощность 400 Вт, P1/P2 не разграничены. Кривая не получена."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi ELICA 500",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 50,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 2.5998,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.5,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/",
+  "graph_url": null,
+  "note": "Карточка продавца. Qmax=43.33 л/мин ×0.06; точность исходного округления сохранена, до 2.6 автоматически не исправлено. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi ELICA 600",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 50,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.6,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.6,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/",
+  "graph_url": null,
+  "note": "Карточка продавца. Qmax=60 л/мин ×0.06. Мощность 600 Вт без разграничения P1/P2. Полная H(Q) не получена."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi ELICA 800",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 50,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.9998,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/",
+  "graph_url": null,
+  "note": "Карточка продавца. Qmax=83.33 л/мин ×0.06; точность исходного округления сохранена. Мощность 800 Вт без разграничения P1/P2."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi Acquatico 260-16",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 60,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.08,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.26,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/",
+  "graph_url": null,
+  "note": "Вибрационный насос. Qmax=18 л/мин ×0.06. Вариант 260-25 с теми же опубликованными напором, подачей и мощностью не добавлен отдельно. Кривая и фактический напор при нулевой подаче не проверены; hmax — опубликованный максимальный напор."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi Acquatico 300-10",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 70,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.2,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.3,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/",
+  "graph_url": null,
+  "note": "Вибрационный насос. Qmax=20 л/мин ×0.06. P1/P2 не разграничены. hmax — опубликованный максимальный напор; точка Q=0 отдельно не проверена."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi Acquatico 330-10",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 80,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.32,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.33,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/",
+  "graph_url": null,
+  "note": "Вибрационный насос. Qmax=22 л/мин ×0.06. P1/P2 не разграничены. hmax — опубликованный максимальный напор; точка Q=0 отдельно не проверена."
+ },
+ {
+  "brand": "Quattro Elementi",
+  "name": "Quattro Elementi Acquatico 390-10",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 80,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.56,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.39,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://mircli.ru/pogruzhnye-nasosy/QUATTRO-ELEMENTI/",
+  "graph_url": null,
+  "note": "Вибрационный насос. Qmax=26 л/мин ×0.06. P1/P2 не разграничены. hmax — опубликованный максимальный напор; точка Q=0 отдельно не проверена."
+ },
+ {
+  "brand": "Gardena",
+  "name": "Gardena 3000/4 09011-29.000.00",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 40,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.6,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.vseinstrumenti.ru/category/samovsasyvayuschie-nasosy-2051/gardena-506/",
+  "graph_url": null,
+  "note": "Именно исполнение 09011-29, комплект для полива. Qmax=50 л/мин ×0.06. Не объединено с Classic 01717, для которого встречаются другие предельные значения. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Gardena",
+  "name": "Gardena 4000/5 1732-20",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 45,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.1,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/gardena/27554/105093.pdf",
+  "graph_url": null,
+  "note": "Числа из каталожной таблицы технических параметров, а не из таблицы H(Q); поэтому quality=passport_only. Подача 4000 л/ч переведена в м³/ч. Мощность двигателя без разграничения P1/P2."
+ },
+ {
+  "brand": "Gardena",
+  "name": "Gardena 5000/5 1734-20",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 50,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 5.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.3,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/gardena/27554/105093.pdf",
+  "graph_url": null,
+  "note": "Каталожные предельные параметры: 5000 л/ч, 50 м, 1300 Вт. Это не таблица H(Q). P1/P2 не разграничены."
+ },
+ {
+  "brand": "Gardena",
+  "name": "Gardena 6000/6 inox Premium 1736-20",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 55,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 6.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.3,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.c-o-k.ru/library/catalogs/gardena/27554/105093.pdf ; https://www.vseinstrumenti.ru/category/samovsasyvayuschie-nasosy-2051/gardena-506/",
+  "graph_url": null,
+  "note": "Каталог указывает 6000 л/ч; российская карточка — 100 л/мин, что даёт те же 6 м³/ч. В отдельных описаниях встречается 5500 л/ч; здесь эта редакция не использована. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Kärcher",
+  "name": "Kärcher BP 2 Garden",
+  "type": "surface",
+  "quality": "graph",
+  "points": [],
+  "hmax": 35,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.7,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5700760-000-00.pdf (раздел Specifications)",
+  "graph_url": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5700760-000-00.pdf",
+  "note": "График обнаружен, но не оцифрован; чтение по линиям сетки не выполнялось. Номер страницы графика не установлен. Предельные числа из текстовой таблицы: 3000 л/ч, 35 м, 700 Вт, всасывание 8 м. В источнике мощность обозначена Pnom, не P1/P2. Использовано значение напора в метрах, а не пересчёт округлённых 3.5 бар."
+ },
+ {
+  "brand": "Kärcher",
+  "name": "Kärcher BP 3 Garden",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 40,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.5,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5700760-000-00.pdf (раздел Specifications)",
+  "graph_url": null,
+  "note": "Текстовая таблица: 3500 л/ч, 40 м, 800 Вт, всасывание 8 м. Pnom не переименована в P1/P2. Варианты Set не размножены."
+ },
+ {
+  "brand": "Kärcher",
+  "name": "Kärcher BP 4 Garden",
+  "type": "surface",
+  "quality": "graph",
+  "points": [],
+  "hmax": 45,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.0,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5700760-000-00.pdf (раздел Specifications)",
+  "graph_url": "https://s1.kaercher-media.com/documents/manuals/raw/000/BTA-5700760-000-00.pdf",
+  "note": "График обнаружен, но не оцифрован; чтение по сетке не выполнялось. Номер страницы не установлен. Числа из таблицы: 4000 л/ч, 45 м, 1000 Вт, всасывание 8 м. Мощность обозначена Pnom, не P1/P2. Вариант Set не добавлен отдельно."
+ },
+ {
+  "brand": "Kärcher",
+  "name": "Kärcher BP 3 Home & Garden",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 40,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.3,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://karcher.ru/blogs/know-how/kak-vybrat-nasos-dlya-dachi",
+  "graph_url": null,
+  "note": "Технические числа из материала российского сайта: 3300 л/ч, 40 м, 800 Вт. Не смешивать с BP 3 Garden, у которого опубликовано 3500 л/ч. Полная кривая не получена; P1/P2 не разграничены."
+ },
+ {
+  "brand": "Kärcher",
+  "name": "Kärcher BP 4 Home & Garden 1.645-363.0",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 45,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.8,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.95,
+  "power_type": "P1",
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.karcher.com/ua/home-garden/nasosy/sadovye-nasosy-vodjanye-nasosy-dlja-doma/bp-4-home-garden-16453630.html ; https://karcher.ru/blogs/know-how/kak-vybrat-nasos-dlya-dachi",
+  "graph_url": null,
+  "note": "Официальная таблица обозначает номинальную потребляемую мощность 950 Вт. Максимальная подача опубликована как <3800 л/ч; qmax=3.8 является верхней границей, а не точным равенством. Напор взят как 45 м непосредственно из таблицы, без пересчёта округлённых 4.5 бар."
+ },
+ {
+  "brand": "Termica",
+  "name": "Termica AGP 60",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 35,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 2.8,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.6,
+  "power_type": "P1",
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://termica.pro/products/agp_60/ ; https://termica.pro/products/agp_60_inox/",
+  "graph_url": null,
+  "note": "Официальные параметры: Hmax 35 м, Qmax 2.8 м³/ч, P1 600 Вт. Исполнение INOX с теми же опубликованными предельными параметрами отдельно не добавлено. У некоторых продавцов указаны 50 л/мин, то есть 3 м³/ч; выбран официальный Qmax."
+ },
+ {
+  "brand": "Termica",
+  "name": "Termica APS 80",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 38,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.2,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.8,
+  "power_type": "P1",
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://armatek-tula.ru/content/nasosnaya-stantsiya-termica-aps",
+  "graph_url": null,
+  "note": "Таблица продавца, редакция не датирована. Мощность прямо названа потребляемой. Использована строка Qmax в м³/ч: 3.2, а не округлённые 53 л/мин. В других карточках встречается Hmax=40 м; здесь сохранена редакция 38 м. APS 80 inox с теми же предельными параметрами отдельно не добавлена."
+ },
+ {
+  "brand": "Termica",
+  "name": "Termica APS 100",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 44,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.5,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.0,
+  "power_type": "P1",
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://armatek-tula.ru/content/nasosnaya-stantsiya-termica-aps",
+  "graph_url": null,
+  "note": "Таблица продавца, редакция не датирована. Мощность прямо названа потребляемой. Использована строка 3.5 м³/ч, а не округлённые 58 л/мин. Полная H(Q) отсутствует."
+ },
+ {
+  "brand": "Termica",
+  "name": "Termica APS 60 inox",
+  "type": "surface",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 35,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.0,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.6,
+  "power_type": "P1",
+  "current_a": null,
+  "suction_m": 8,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://armatek-tula.ru/content/nasosnaya-stantsiya-termica-aps",
+  "graph_url": null,
+  "note": "Таблица продавца, редакция не датирована. Потребляемая мощность 600 Вт, Qmax 3 м³/ч. Не объединена с современной AGP 60: опубликованный Qmax отличается, полные кривые для проверки тождества отсутствуют."
+ },
+ {
+  "brand": "Акватек",
+  "name": "Акватек SP 3,5 4-45 тип 2 0-18-0720",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 46,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.8,
+  "h_at_qmax": null,
+  "diam_mm": 85,
+  "power_kw": 0.55,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 100,
+  "src": "https://www.vseinstrumenti.ru/product/nasos-skvazhinnyj-akvatek-sp-3-5-4-45-s-kabelem-25-m-550vt-tip-2-0-18-0720-20371538/",
+  "graph_url": null,
+  "note": "Центробежный, тип 2. Qmax=80 л/мин ×0.06. Hmax в карточке 46 м, а не 45 м из названия. Диаметр в отдельном поле 85 мм, тогда как габаритная строка содержит 86 мм; сохранено поле диаметра, расхождение не устранено. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Акватек",
+  "name": "Акватек SP 3,5 4-65 тип 2 0-18-0730",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 63,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.8,
+  "h_at_qmax": null,
+  "diam_mm": 85,
+  "power_kw": 0.75,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 100,
+  "src": "https://www.vseinstrumenti.ru/product/nasos-skvazhinnyj-akvatek-sp-3-5-4-65-s-kabelem-40-m-750vt-tip-2-0-18-0730-20371532/",
+  "graph_url": null,
+  "note": "Центробежный, тип 2. Qmax=80 л/мин ×0.06. Hmax=63 м из характеристик; число 65 в названии не использовано как Hmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Акватек",
+  "name": "Акватек SP 3,5 4-85 тип 2 0-18-0732",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 81,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.8,
+  "h_at_qmax": null,
+  "diam_mm": 85,
+  "power_kw": 0.92,
+  "power_type": null,
+  "current_a": 5.2,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 100,
+  "src": "https://www.vseinstrumenti.ru/product/nasos-skvazhinnyj-akvatek-sp-3-5-4-85-s-kabelem-60-m-920vt-tip-2-0-18-0732-20371550/ ; https://www.ozon.ru/product/nasos-skvazhinnyy-akvatek-sp3-5-4-85-s-kabelem-60-m-0-18-0732-2142682655/",
+  "graph_url": null,
+  "note": "Центробежный, тип 2. Hmax=81 м, Qmax=80 л/мин ×0.06. Ток 5.2 А взят из отдельной карточки Ozon и обозначен там как максимальный ток потребления. Диаметр отдельного поля 85 мм; в габаритах встречается 86 мм. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Акватек",
+  "name": "Акватек SP 3,5 4-100 тип 2 0-18-0734",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 98,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.8,
+  "h_at_qmax": null,
+  "diam_mm": 85,
+  "power_kw": 1.1,
+  "power_type": null,
+  "current_a": 6.2,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 100,
+  "src": "https://www.ozon.ru/product/nasos-skvazhinnyy-akvatek-sp3-5-4-100-s-kabelem-70-m-0-18-0734-2142711881/ ; https://www.vseinstrumenti.ru/product/nasos-skvazhinnyj-akvatek-sp-3-5-4-100-s-kabelem-70-m-1100vt-tip-2-0-18-0734-20735786/",
+  "graph_url": null,
+  "note": "Hmax=98 м, Qmax=80 л/мин ×0.06. Мощность 1100 Вт подтверждается карточкой Ozon и заголовком второй карточки; значение 1.1 Вт в её поле мощности является противоречием источника и не использовано. Ток 6.2 А обозначен как максимальный. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Rommer",
+  "name": "ROMMER RP 2-44 RPW-0010-300215",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": null,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 2.7,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.37,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.rommer.ru/catalog/skvazhinnye/nasosy_bez_kabelya/nasos-skvazhinnyy-rommer-rp-244/",
+  "graph_url": null,
+  "note": "Официальная карточка: Qmax=2.7 м³/ч, мощность 370 Вт. Hmax не извлечён. Число 44 из названия не объявлено ни Hmax, ни Hnom. Исполнения с другим кабелем не размножены. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Rommer",
+  "name": "ROMMER RP 3-51 RPW-0010-300321",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 84,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 3.9,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": null,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.rommer.ru/catalog/skvazhinnye/nasosy_bez_kabelya/nasos-skvazhinnyy-rommer-rp-351/",
+  "graph_url": null,
+  "note": "Официальная карточка прямо указывает максимальный напор 84 м и максимальную подачу 3.9 м³/ч, также 65 л/мин. Мощность и H(Q) не извлечены; число 51 из названия не использовано как паспортный напор."
+ },
+ {
+  "brand": "Rommer",
+  "name": "ROMMER RP 4-76 RPW-0010-300428",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": null,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 5.4,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 1.5,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.rommer.ru/catalog/skvazhinnye/nasosy_bez_kabelya/nasos-skvazhinnyy-rommer-rp-476/",
+  "graph_url": null,
+  "note": "Официальная карточка: Qmax=5.4 м³/ч, мощность 1500 Вт. Hmax не извлечён. Допустимое рабочее давление из других исполнений не преобразовывалось в Hmax. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Elitech",
+  "name": "ELITECH НГ 550-35В",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 35,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 2.82,
+  "h_at_qmax": null,
+  "diam_mm": 75,
+  "power_kw": 0.55,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 80,
+  "src": "https://etalon48.com/catalog/nasosy-pogruzhnye_2/nasos-glubinnyy-elitech-ng-550-35v/ ; https://makita-snab.ru/magazin/folder/nasosy-skvazhennyye",
+  "graph_url": null,
+  "note": "Qmax=47 л/мин ×0.06. Диаметр 75 мм из второй карточки; минимальная скважина 80 мм из описания первой. Мощность 550 Вт без разграничения P1/P2. H(Q) не получена."
+ },
+ {
+  "brand": "Elitech",
+  "name": "ELITECH НГ 750-50В",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 50,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 2.82,
+  "h_at_qmax": null,
+  "diam_mm": 75,
+  "power_kw": 0.75,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 80,
+  "src": "https://makita-snab.ru/magazin/folder/nasosy-skvazhennyye ; https://www.spb-rost.ru/elitech/",
+  "graph_url": null,
+  "note": "Qmax=47 л/мин ×0.06. Напор 50 м взят из поля максимального напора; указанное рядом рабочее давление 4.5 бар не использовано как Hmax. Минимальная скважина 80 мм из описания второй карточки. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Elitech",
+  "name": "ELITECH НГ 900-60",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 60,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 4.5,
+  "h_at_qmax": null,
+  "diam_mm": 100,
+  "power_kw": 0.9,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://makita-snab.ru/magazin/folder/nasosy-skvazhennyye",
+  "graph_url": null,
+  "note": "Карточка продавца: максимальный напор 60 м, подача 75 л/мин, диаметр 100 мм, мощность 900 Вт. Qmax=75×0.06. Минимальный диаметр скважины из наружного диаметра не выведен. P1/P2 не разграничены."
+ },
+ {
+  "brand": "Зубр",
+  "name": "ЗУБР НСВ-75-110",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 110,
+  "qnom": null,
+  "hnom": null,
+  "qmax": 1.92,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.9,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://www.eldorado.ru/products/402768104",
+  "graph_url": null,
+  "note": "Карточка российского продавца: винтовой насос, 900 Вт, 32 л/мин, напор 110 м. Qmax=32×0.06. Диаметр 75 мм из названия не выведен. Мощность не разграничена как P1/P2; полная H(Q) отсутствует."
+ },
+ {
+  "brand": "Hammer",
+  "name": "Hammer NAP 600/39S",
+  "type": "sub",
+  "quality": "passport_only",
+  "points": [],
+  "hmax": 39,
+  "qnom": null,
+  "hnom": null,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": null,
+  "power_kw": 0.6,
+  "power_type": null,
+  "current_a": null,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": null,
+  "src": "https://wizemart.ru/nasosy_skvazhinnye-4077c/",
+  "graph_url": null,
+  "note": "Вторичный агрегатор, не паспорт: насос назван скважинным, опубликованы напор 39 м и мощность 600 Вт. Подача, диаметр и кривая не получены. До проверки паспорта не использовать для автоматического расчёта рабочей точки. P1/P2 не разграничены."
+ }
+]

@@ -1,0 +1,66 @@
+# Тег vX.Y.Z → тесты Core (Kotlin), сборка APK, релиз с APK и веб-версией.
+# Подпись: если в Secrets репо есть SIGNING_KEYSTORE_B64 / SIGNING_STORE_PASSWORD / SIGNING_KEY_ALIAS / SIGNING_KEY_PASSWORD —
+# APK подписывается твоим ключом; иначе — debug-ключом раннера (каждый релиз — новый ключ, поверх ставится только после удаления).
+name: Release
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: "17" }
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Версия из тега = versionName
+        id: ver
+        run: |
+          VER=$(grep -m1 'versionName' android/app/build.gradle.kts | sed -E 's/.*"(.*)".*/\1/')
+          TAG="${GITHUB_REF_NAME#v}"
+          echo "versionName=$VER, тег=$GITHUB_REF_NAME"
+          if [ "$GITHUB_REF_TYPE" = tag ] && [ "$TAG" != "$VER" ]; then echo "::error::Тег $GITHUB_REF_NAME не совпадает с versionName $VER"; exit 1; fi
+          echo "ver=$VER" >> "$GITHUB_OUTPUT"
+      - name: Тесты веба (node test.js)
+        run: cd web && node test.js
+      - name: Тесты Core и сборка APK
+        working-directory: android
+        run: |
+          chmod +x gradlew
+          ./gradlew --console=plain testDebugUnitTest assembleDebug
+      - name: Подпись своим ключом (если задан в Secrets)
+        env:
+          KS_B64: ${{ secrets.SIGNING_KEYSTORE_B64 }}
+          KS_PASS: ${{ secrets.SIGNING_STORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.SIGNING_KEY_ALIAS }}
+          KEY_PASS: ${{ secrets.SIGNING_KEY_PASSWORD }}
+        run: |
+          APK=android/app/build/outputs/apk/debug/app-debug.apk
+          OUT="QDebit-${{ steps.ver.outputs.ver }}.apk"
+          if [ -n "$KS_B64" ]; then
+            echo "$KS_B64" | base64 -d > ks.jks
+            BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+            "$BT/apksigner" sign --ks ks.jks --ks-pass env:KS_PASS --ks-key-alias "$KEY_ALIAS" --key-pass env:KEY_PASS --out "$OUT" "$APK"
+            rm -f ks.jks
+            echo "Подписан своим ключом"
+          else
+            cp "$APK" "$OUT"
+            echo "::warning::Секретов подписи нет — APK с debug-ключом раннера"
+          fi
+          cp web/QDebit.html "QDebit-${{ steps.ver.outputs.ver }}.html"
+      - name: Релиз
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          V=${{ steps.ver.outputs.ver }}
+          T="${GITHUB_REF_NAME}"; [ "$GITHUB_REF_TYPE" = tag ] || T="v$V"
+          NOTES="Android: QDebit-$V.apk (Android 8+). Веб: QDebit-$V.html — открыть в браузере, данные хранятся в браузере. Онлайн: https://q00000p.github.io/QDebit/"
+          if gh release view "$T" >/dev/null 2>&1; then
+            gh release upload "$T" "QDebit-$V.apk" "QDebit-$V.html" --clobber
+          else
+            gh release create "$T" "QDebit-$V.apk" "QDebit-$V.html" --title "QDebit $V" --notes "$NOTES" --generate-notes
+          fi

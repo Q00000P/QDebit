@@ -1,0 +1,567 @@
+[
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-35",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    47
+   ],
+   [
+    0.2,
+    46
+   ],
+   [
+    0.4,
+    44
+   ],
+   [
+    0.6,
+    42
+   ],
+   [
+    0.8,
+    39
+   ],
+   [
+    1,
+    35
+   ],
+   [
+    1.2,
+    29
+   ],
+   [
+    1.4,
+    24
+   ],
+   [
+    1.6,
+    17
+   ],
+   [
+    1.7,
+    14
+   ]
+  ],
+  "hmax": 47,
+  "qnom": 1,
+  "hnom": 34,
+  "qmax": 1.7,
+  "h_at_qmax": 14,
+  "diam_mm": 74,
+  "power_kw": 0.58,
+  "power_type": "P1",
+  "current_a": 2.5,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30); https://grundnasos.ru/product/skvazhinnyy-nasos-grundfos-sq-1-35",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "График PDF стр.29, кривая -35. Извлечена векторная линия с калибровкой по сетке Q через 0.2 м³/ч, H через 20 м; H округлён до 1 м. Последняя координата исходной линии Q≈1.695 округлена до 1.70. Hmax, P1 и ток из таблицы стр.23; ток для 230 В. Qnom — номинальная подача по расшифровке обозначения; Hnom=34 — табличный напор при Q=1, а не суффикс 35. Qmax подтверждён российской карточкой. H_at_qmax прочитан с графика. Конец кривой не означает H=0. Ориентировочная точность оцифровки около 1–2 м, не допуск производителя."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-50",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    70
+   ],
+   [
+    0.2,
+    70
+   ],
+   [
+    0.4,
+    67
+   ],
+   [
+    0.6,
+    63
+   ],
+   [
+    0.8,
+    58
+   ],
+   [
+    1,
+    52
+   ],
+   [
+    1.2,
+    45
+   ],
+   [
+    1.4,
+    37
+   ],
+   [
+    1.6,
+    27
+   ],
+   [
+    1.68,
+    23
+   ]
+  ],
+  "hmax": 71,
+  "qnom": 1,
+  "hnom": 52,
+  "qmax": 1.7,
+  "h_at_qmax": null,
+  "diam_mm": 74,
+  "power_kw": 0.78,
+  "power_type": "P1",
+  "current_a": 3.3,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30); https://grundnasos.ru/product/skvazhinnyy-nasos-grundfos-sq-1-50",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "PDF стр.29, кривая -50; векторная оцифровка по сетке Q=0.2 м³/ч, H=20 м; округление H до 1 м. Последняя точка — фактическое окончание линии Q≈1.6847, округлённое до 1.68; до Qmax не экстраполировано. Графическое H(0)≈70 отличается от табличного Hmax=71. Hnom — таблица стр.23 при Qnom=1. P1 и ток взяты из этой редакции каталога, ток для 230 В; в российских карточках встречаются другие электрические параметры, они не подмешаны. Qmax=1.7 из российской карточки."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-65",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    94
+   ],
+   [
+    0.2,
+    93
+   ],
+   [
+    0.4,
+    90
+   ],
+   [
+    0.6,
+    85
+   ],
+   [
+    0.8,
+    78
+   ],
+   [
+    1,
+    70
+   ],
+   [
+    1.2,
+    61
+   ],
+   [
+    1.4,
+    49
+   ],
+   [
+    1.6,
+    37
+   ],
+   [
+    1.68,
+    31
+   ]
+  ],
+  "hmax": 94,
+  "qnom": 1,
+  "hnom": 70,
+  "qmax": 1.7,
+  "h_at_qmax": null,
+  "diam_mm": 74,
+  "power_kw": 1.0,
+  "power_type": "P1",
+  "current_a": 4.3,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30); https://grundnasos.ru/product/skvazhinnyy-nasos-grundfos-sq-1-65",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "PDF стр.29, кривая -65; извлечена векторная линия, сетка Q через 0.2 м³/ч, H через 20 м. H округлён до 1 м. Последний Q≈1.679 округлён до 1.68; экстраполяции до Qmax нет. Hmax, P1, ток и H при Qnom из таблицы стр.23; ток для 230 В. Hnom=70 — опубликованный напор при Q=1, а не суффикс 65. Qmax из российской карточки. Диаметр и минимальная скважина из каталога."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-80",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    118
+   ],
+   [
+    0.2,
+    117
+   ],
+   [
+    0.4,
+    113
+   ],
+   [
+    0.6,
+    106
+   ],
+   [
+    0.8,
+    99
+   ],
+   [
+    1,
+    88
+   ],
+   [
+    1.2,
+    76
+   ],
+   [
+    1.4,
+    62
+   ],
+   [
+    1.6,
+    47
+   ],
+   [
+    1.68,
+    41
+   ]
+  ],
+  "hmax": 118,
+  "qnom": 1,
+  "hnom": 89,
+  "qmax": 1.7,
+  "h_at_qmax": null,
+  "diam_mm": 74,
+  "power_kw": 1.18,
+  "power_type": "P1",
+  "current_a": 5.1,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30); https://grundnasos.ru/product/skvazhinnyy-nasos-grundfos-sq-1-80",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "PDF стр.29, кривая -80; векторная линия, сетка Q=0.2 м³/ч и H=20 м, округление H до 1 м. Конец линии Q≈1.6842 округлён до 1.68. Hnom=89 из таблицы стр.23 при Q=1; графическое чтение даёт около 88, расхождение сохранено. P1 и ток — та же редакция каталога, ток при 230 В. Qmax=1.7 из российской карточки; H при нём не экстраполирован."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-95",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    142
+   ],
+   [
+    0.2,
+    140
+   ],
+   [
+    0.4,
+    135
+   ],
+   [
+    0.6,
+    128
+   ],
+   [
+    0.8,
+    118
+   ],
+   [
+    1,
+    106
+   ],
+   [
+    1.2,
+    92
+   ],
+   [
+    1.4,
+    76
+   ],
+   [
+    1.6,
+    59
+   ],
+   [
+    1.69,
+    50
+   ]
+  ],
+  "hmax": 142,
+  "qnom": 1,
+  "hnom": 107,
+  "qmax": 1.7,
+  "h_at_qmax": null,
+  "diam_mm": 74,
+  "power_kw": 1.38,
+  "power_type": "P1",
+  "current_a": 6.0,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30); https://grundnasos.ru/product/skvazhinnyy-nasos-grundfos-sq-1-95",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "PDF стр.29, кривая -95; векторная оцифровка по сетке Q=0.2 м³/ч, H=20 м. H округлён до 1 м. Конец линии Q≈1.6875 округлён до 1.69. Hmax, Hnom при Q=1, P1 и ток из таблицы стр.23; ток для 230 В. Qmax подтверждён российской карточкой. Графическая точка при Q=1 даёт 106 м против табличных 107 м; не исправлялась под таблицу."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-110",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    165
+   ],
+   [
+    0.2,
+    164
+   ],
+   [
+    0.4,
+    158
+   ],
+   [
+    0.6,
+    150
+   ],
+   [
+    0.8,
+    138
+   ],
+   [
+    1,
+    124
+   ],
+   [
+    1.2,
+    108
+   ],
+   [
+    1.4,
+    90
+   ],
+   [
+    1.6,
+    69
+   ],
+   [
+    1.69,
+    60
+   ]
+  ],
+  "hmax": 166,
+  "qnom": 1,
+  "hnom": 125,
+  "qmax": 1.7,
+  "h_at_qmax": null,
+  "diam_mm": 74,
+  "power_kw": 1.59,
+  "power_type": "P1",
+  "current_a": 7.0,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30); https://grundnasos.ru/product/skvazhinnyy-nasos-grundfos-sq-1-110",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "PDF стр.29, кривая -110; векторная линия с калибровкой по сетке Q через 0.2 м³/ч, H через 20 м. Округление H до 1 м. Конец Q≈1.688 округлён до 1.69. Графические H(0)=165 и H(1)=124 примерно на 1 м ниже табличных Hmax=166 и Hnom=125. Паспортные поля взяты из таблицы стр.23, ток при 230 В. Qmax из российской карточки."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-125",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    189
+   ],
+   [
+    0.2,
+    187
+   ],
+   [
+    0.4,
+    181
+   ],
+   [
+    0.6,
+    171
+   ],
+   [
+    0.8,
+    158
+   ],
+   [
+    1,
+    143
+   ],
+   [
+    1.2,
+    125
+   ],
+   [
+    1.4,
+    104
+   ],
+   [
+    1.6,
+    80
+   ],
+   [
+    1.7,
+    68
+   ]
+  ],
+  "hmax": 189,
+  "qnom": 1,
+  "hnom": 144,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 74,
+  "power_kw": 1.82,
+  "power_type": "P1",
+  "current_a": 7.8,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30)",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "PDF стр.29, кривая -125; извлечена векторная линия, сетка Q=0.2 м³/ч, H=20 м. H округлён до 1 м, конец Q≈1.6969 округлён до 1.70. Hmax и Hnom при Qnom=1 из таблицы стр.23. P1 и ток из этой же редакции, ток при 230 В. Отдельное текстовое Qmax этой модели в использованных источниках не подтверждено; окончание графика не объявлено паспортным максимумом."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-140",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    213
+   ],
+   [
+    0.2,
+    211
+   ],
+   [
+    0.4,
+    204
+   ],
+   [
+    0.6,
+    193
+   ],
+   [
+    0.8,
+    179
+   ],
+   [
+    1,
+    161
+   ],
+   [
+    1.2,
+    141
+   ],
+   [
+    1.4,
+    117
+   ],
+   [
+    1.6,
+    91
+   ],
+   [
+    1.7,
+    77
+   ]
+  ],
+  "hmax": 213,
+  "qnom": 1,
+  "hnom": 162,
+  "qmax": null,
+  "h_at_qmax": null,
+  "diam_mm": 74,
+  "power_kw": 2.02,
+  "power_type": "P1",
+  "current_a": 8.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30)",
+  "graph_url": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf#page=29",
+  "note": "PDF стр.29, кривая -140; векторная линия, сетка Q через 0.2 м³/ч, H через 20 м. H округлён до 1 м; конец Q≈1.6993 округлён до 1.70. Hmax, Hnom при Q=1, P1 и ток из таблицы стр.23; ток для 230 В. Отдельное текстовое Qmax не подтверждено, поэтому null. Графическое H(1) около 161 против табличных 162; расхождение не скрыто."
+ },
+ {
+  "brand": "Grundfos",
+  "name": "Grundfos SQ 1-155",
+  "type": "sub",
+  "quality": "graph",
+  "points": [
+   [
+    0,
+    237
+   ],
+   [
+    0.2,
+    234
+   ],
+   [
+    0.4,
+    227
+   ],
+   [
+    0.6,
+    215
+   ],
+   [
+    0.8,
+    199
+   ],
+   [
+    1,
+    180
+   ],
+   [
+    1.2,
+    158
+   ],
+   [
+    1.4,
+    132
+   ],
+   [
+    1.6,
+    103
+   ],
+   [
+    1.7,
+    87
+   ]
+  ],
+  "hmax": 237,
+  "qnom": 1,
+  "hnom": 180,
+  "qmax": 1.7,
+  "h_at_qmax": 87,
+  "diam_mm": 74,
+  "power_kw": 2.19,
+  "power_type": "P1",
+  "current_a": 9.6,
+  "suction_m": null,
+  "min_q_m3h": null,
+  "well_min_mm": 76,
+  "src": "https://pexuniverse.com/uploads/literature/gfs-sq-sqe-po.pdf (PDF стр. 5–6, 23, 29–30);"
+ }
+]

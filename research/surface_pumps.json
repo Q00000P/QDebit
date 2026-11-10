@@ -1,0 +1,1688 @@
+[
+ {
+  "name": "UNIPUMP AUTO JS 60",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    33
+   ],
+   [
+    0.6,
+    27
+   ],
+   [
+    1.2,
+    20
+   ],
+   [
+    1.8,
+    13
+   ],
+   [
+    2.4,
+    5
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.45,
+  "Hmax": 33,
+  "Qmax": 2.4,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Same pump as bare UNIPUMP JS 60; manual = AUTO/AKVAROBOT station manual."
+ },
+ {
+  "name": "UNIPUMP AUTO JS 80",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    38
+   ],
+   [
+    0.6,
+    32
+   ],
+   [
+    1.2,
+    25
+   ],
+   [
+    1.8,
+    18
+   ],
+   [
+    2.4,
+    10
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.6,
+  "Hmax": 38,
+  "Qmax": 2.7,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Same pump as bare UNIPUMP JS 80; manual = AUTO/AKVAROBOT station manual. Spec table Qmax 45 l/min (2.7 m3/h); H(Q) table ends at 40 l/min."
+ },
+ {
+  "name": "UNIPUMP AUTO JS 100",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    40
+   ],
+   [
+    0.6,
+    38
+   ],
+   [
+    1.2,
+    32
+   ],
+   [
+    1.8,
+    25
+   ],
+   [
+    2.4,
+    18
+   ],
+   [
+    3.0,
+    10
+   ],
+   [
+    3.3,
+    2
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.75,
+  "Hmax": 40,
+  "Qmax": 3.3,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Same pump as bare UNIPUMP JS 100; manual = AUTO/AKVAROBOT station manual."
+ },
+ {
+  "name": "UNIPUMP AUTO JSW 55",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    40
+   ],
+   [
+    0.6,
+    35
+   ],
+   [
+    1.2,
+    30
+   ],
+   [
+    1.8,
+    27
+   ],
+   [
+    2.4,
+    24
+   ],
+   [
+    3.0,
+    21
+   ],
+   [
+    3.3,
+    19
+   ],
+   [
+    3.6,
+    15
+   ],
+   [
+    4.2,
+    3
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 1.0,
+  "Hmax": 40,
+  "Qmax": 4.2,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP AUTO QB 60",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    33
+   ],
+   [
+    0.3,
+    25
+   ],
+   [
+    0.6,
+    21
+   ],
+   [
+    0.9,
+    12
+   ],
+   [
+    1.2,
+    9
+   ],
+   [
+    1.5,
+    4
+   ]
+  ],
+  "suction": 5,
+  "powerKW": 0.37,
+  "Hmax": 33,
+  "Qmax": 1.8,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Vortex (QB) pump. Spec Qmax 30 l/min (1.8 m3/h); table ends at 25 l/min."
+ },
+ {
+  "name": "UNIPUMP AUTO QB 70",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    40
+   ],
+   [
+    0.3,
+    35
+   ],
+   [
+    0.6,
+    30
+   ],
+   [
+    0.9,
+    24
+   ],
+   [
+    1.2,
+    21
+   ],
+   [
+    1.5,
+    15
+   ],
+   [
+    1.8,
+    9
+   ],
+   [
+    2.1,
+    5
+   ],
+   [
+    2.4,
+    1
+   ]
+  ],
+  "suction": 5,
+  "powerKW": 0.55,
+  "Hmax": 40,
+  "Qmax": 2.4,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Vortex (QB) pump."
+ },
+ {
+  "name": "UNIPUMP AUTO QB 80",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    50
+   ],
+   [
+    0.3,
+    44
+   ],
+   [
+    0.6,
+    40
+   ],
+   [
+    0.9,
+    33
+   ],
+   [
+    1.2,
+    25
+   ],
+   [
+    1.5,
+    19
+   ],
+   [
+    1.8,
+    14
+   ],
+   [
+    2.1,
+    10
+   ],
+   [
+    2.4,
+    7
+   ],
+   [
+    2.7,
+    1
+   ]
+  ],
+  "suction": 5,
+  "powerKW": 0.75,
+  "Hmax": 50,
+  "Qmax": 2.7,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Vortex (QB) pump."
+ },
+ {
+  "name": "UNIPUMP AUTO JET 80 L",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    38
+   ],
+   [
+    0.6,
+    32
+   ],
+   [
+    1.2,
+    25
+   ],
+   [
+    1.8,
+    18
+   ],
+   [
+    2.4,
+    11
+   ],
+   [
+    3.0,
+    2
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.6,
+  "Hmax": 38,
+  "Qmax": 3.0,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP AUTO JET 100 L",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    43
+   ],
+   [
+    0.6,
+    38
+   ],
+   [
+    1.2,
+    32
+   ],
+   [
+    1.8,
+    25
+   ],
+   [
+    2.4,
+    18
+   ],
+   [
+    3.0,
+    10
+   ],
+   [
+    3.6,
+    2
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.75,
+  "Hmax": 43,
+  "Qmax": 3.6,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP AUTO JET 110 L",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    53
+   ],
+   [
+    0.6,
+    48
+   ],
+   [
+    1.2,
+    40
+   ],
+   [
+    1.8,
+    32
+   ],
+   [
+    2.4,
+    22
+   ],
+   [
+    3.0,
+    10
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.9,
+  "Hmax": 53,
+  "Qmax": 3.0,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP AUTO JET 40 S",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    30
+   ],
+   [
+    0.6,
+    20
+   ],
+   [
+    1.2,
+    11
+   ],
+   [
+    1.8,
+    9.5
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.37,
+  "Hmax": 30,
+  "Qmax": 1.8,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP AUTO JET 60 S",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    33
+   ],
+   [
+    0.6,
+    26
+   ],
+   [
+    1.2,
+    20
+   ],
+   [
+    1.8,
+    11
+   ],
+   [
+    2.4,
+    5
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.45,
+  "Hmax": 33,
+  "Qmax": 2.4,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP AUTO JET 80 S",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    38
+   ],
+   [
+    0.6,
+    32
+   ],
+   [
+    1.2,
+    25
+   ],
+   [
+    1.8,
+    18
+   ],
+   [
+    2.4,
+    10
+   ],
+   [
+    3.0,
+    2
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.6,
+  "Hmax": 38,
+  "Qmax": 3.0,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP AUTO JET 100 S",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    43
+   ],
+   [
+    0.6,
+    38
+   ],
+   [
+    1.2,
+    32
+   ],
+   [
+    1.8,
+    25
+   ],
+   [
+    2.4,
+    18
+   ],
+   [
+    3.0,
+    10
+   ],
+   [
+    3.6,
+    2
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.75,
+  "Hmax": 43,
+  "Qmax": 3.6,
+  "src": "https://static.chipdip.ru/lib/938/DOC035938800.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V"
+ },
+ {
+  "name": "UNIPUMP ECO JET 80 LA",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    38
+   ],
+   [
+    0.6,
+    32
+   ],
+   [
+    1.2,
+    26
+   ],
+   [
+    1.8,
+    19
+   ],
+   [
+    2.4,
+    13
+   ],
+   [
+    3.0,
+    7
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.6,
+  "Hmax": 38,
+  "Qmax": 3.0,
+  "src": "https://static.chipdip.ru/lib/939/DOC035939011.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Same values also in https://static.chipdip.ru/lib/938/DOC035938800.pdf"
+ },
+ {
+  "name": "UNIPUMP ECO JET 100 LA",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    45
+   ],
+   [
+    0.6,
+    38
+   ],
+   [
+    1.2,
+    31
+   ],
+   [
+    1.8,
+    24
+   ],
+   [
+    2.4,
+    17
+   ],
+   [
+    3.0,
+    9
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.75,
+  "Hmax": 45,
+  "Qmax": 3.0,
+  "src": "https://static.chipdip.ru/lib/939/DOC035939011.pdf",
+  "hMeaning": "total head of pump (H at outlet incl. suction lift), manual table at zero suction height, 220 V",
+  "notes": "Same values also in https://static.chipdip.ru/lib/938/DOC035938800.pdf"
+ },
+ {
+  "name": "UNIPUMP AUTO DP 750",
+  "type": "ejector",
+  "curves": [
+   {
+    "depth": 15,
+    "points": [
+     [
+      0.0,
+      40
+     ],
+     [
+      0.6,
+      37
+     ],
+     [
+      0.9,
+      30
+     ],
+     [
+      1.2,
+      20
+     ]
+    ]
+   },
+   {
+    "depth": 20,
+    "points": [
+     [
+      0.0,
+      33
+     ],
+     [
+      0.6,
+      28
+     ],
+     [
+      0.9,
+      22
+     ],
+     [
+      1.2,
+      16
+     ]
+    ]
+   }
+  ],
+  "points": [
+   [
+    0.0,
+    40
+   ],
+   [
+    0.6,
+    37
+   ],
+   [
+    0.9,
+    30
+   ],
+   [
+    1.2,
+    20
+   ]
+  ],
+  "suction": 15,
+  "powerKW": 0.75,
+  "Hmax": 40,
+  "Qmax": 2.4,
+  "src": "https://otdelkino.ru/upload/iblock/f1c/udb5rc5nv2ix1kzs53apam3f307mhazy.pdf",
+  "hMeaning": "pump head (напор, m) delivered at the given water level depth below pump (высота всасывания), remote ejector; not pressure",
+  "notes": "15 m curve: UNIPUMP catalog 2019 p.48-49 (max suction 15 m, Qmax 40 l/min / Hmax 40 m at zero suction). 20 m curve: UNIPUMP catalog 2013 p.8 https://www.c-o-k.ru/library/catalogs/unipump/56974.pdf (max suction 20 m there; 15 m row identical). Bare-pump DP 750 manual gives a different 15 m row - see 'UNIPUMP DP 750'."
+ },
+ {
+  "name": "UNIPUMP DP 750",
+  "type": "ejector",
+  "curves": [
+   {
+    "depth": 15,
+    "points": [
+     [
+      0.0,
+      40
+     ],
+     [
+      0.3,
+      39.5
+     ],
+     [
+      0.6,
+      38
+     ],
+     [
+      0.9,
+      35
+     ],
+     [
+      1.2,
+      31
+     ],
+     [
+      1.5,
+      26
+     ],
+     [
+      1.8,
+      19
+     ],
+     [
+      2.1,
+      11
+     ]
+    ]
+   }
+  ],
+  "points": [
+   [
+    0.0,
+    40
+   ],
+   [
+    0.3,
+    39.5
+   ],
+   [
+    0.6,
+    38
+   ],
+   [
+    0.9,
+    35
+   ],
+   [
+    1.2,
+    31
+   ],
+   [
+    1.5,
+    26
+   ],
+   [
+    1.8,
+    19
+   ],
+   [
+    2.1,
+    11
+   ]
+  ],
+  "suction": 15,
+  "powerKW": 0.75,
+  "Hmax": 40,
+  "Qmax": 2.4,
+  "src": "https://static.chipdip.ru/lib/939/DOC035939005.pdf",
+  "hMeaning": "pump head (напор, m) at 15 m suction height with remote ejector",
+  "notes": "CONFLICT: bare-pump manual row at 15 m (40/39.5/38/35/31/26/19/11 at 0..35 l/min) is much flatter than catalog row for AUTO DP 750 at 15 m (40/37/30/20 at 0/10/15/20 l/min). Same pump; treat one as suspect."
+ },
+ {
+  "name": "Джилекс Джамбо 55/35",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    35
+   ],
+   [
+    0.78,
+    30
+   ],
+   [
+    1.44,
+    25
+   ],
+   [
+    1.98,
+    20
+   ],
+   [
+    2.4,
+    15
+   ],
+   [
+    2.76,
+    10
+   ],
+   [
+    3.06,
+    5
+   ],
+   [
+    3.3,
+    0
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.62,
+  "Hmax": 35,
+  "Qmax": 3.3,
+  "src": "https://jeelex.ru/upload/iblock/e8e/gcfls8eeb3sxqg128hnwg4z2gkv1g0eq/DZHAMBO-1.22_25.pdf",
+  "hMeaning": "total pump head at zero suction height, no check valve, 220 V; manual table gives flow Q at fixed head grid 0,5,10,... m (inverted table); tolerance up to 15%"
+ },
+ {
+  "name": "Джилекс Джамбо 60/35",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    35
+   ],
+   [
+    0.78,
+    30
+   ],
+   [
+    1.5,
+    25
+   ],
+   [
+    1.74,
+    20
+   ],
+   [
+    2.52,
+    15
+   ],
+   [
+    2.88,
+    10
+   ],
+   [
+    3.3,
+    5
+   ],
+   [
+    3.6,
+    0
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.62,
+  "Hmax": 35,
+  "Qmax": 3.6,
+  "src": "https://jeelex.ru/upload/iblock/e8e/gcfls8eeb3sxqg128hnwg4z2gkv1g0eq/DZHAMBO-1.22_25.pdf",
+  "hMeaning": "total pump head at zero suction height, no check valve, 220 V; manual table gives flow Q at fixed head grid 0,5,10,... m (inverted table); tolerance up to 15%",
+  "notes": "Printed values 29 l/min at 20 m and 25 at 25 m as in manual (also identical in older manual)."
+ },
+ {
+  "name": "Джилекс Джамбо 70/50",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    50
+   ],
+   [
+    0.78,
+    45
+   ],
+   [
+    1.38,
+    40
+   ],
+   [
+    1.98,
+    35
+   ],
+   [
+    2.52,
+    30
+   ],
+   [
+    2.88,
+    25
+   ],
+   [
+    3.18,
+    20
+   ],
+   [
+    3.42,
+    15
+   ],
+   [
+    3.78,
+    10
+   ],
+   [
+    4.02,
+    5
+   ],
+   [
+    4.2,
+    0
+   ]
+  ],
+  "suction": 9,
+  "powerKW": 1.1,
+  "Hmax": 50,
+  "Qmax": 4.2,
+  "src": "https://jeelex.ru/upload/iblock/e8e/gcfls8eeb3sxqg128hnwg4z2gkv1g0eq/DZHAMBO-1.22_25.pdf",
+  "hMeaning": "total pump head at zero suction height, no check valve, 220 V; manual table gives flow Q at fixed head grid 0,5,10,... m (inverted table); tolerance up to 15%"
+ },
+ {
+  "name": "Джилекс Джамбо 70/50 Н",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    50
+   ],
+   [
+    0.78,
+    45
+   ],
+   [
+    1.38,
+    40
+   ],
+   [
+    1.98,
+    35
+   ],
+   [
+    2.52,
+    30
+   ],
+   [
+    2.88,
+    25
+   ],
+   [
+    3.18,
+    20
+   ],
+   [
+    3.42,
+    15
+   ],
+   [
+    3.78,
+    10
+   ],
+   [
+    4.02,
+    5
+   ],
+   [
+    4.2,
+    0
+   ]
+  ],
+  "suction": 9,
+  "powerKW": 1.1,
+  "Hmax": 50,
+  "Qmax": 4.2,
+  "src": "https://jeelex.ru/upload/iblock/e8e/gcfls8eeb3sxqg128hnwg4z2gkv1g0eq/DZHAMBO-1.22_25.pdf",
+  "hMeaning": "total pump head at zero suction height, no check valve, 220 V; manual table gives flow Q at fixed head grid 0,5,10,... m (inverted table); tolerance up to 15%",
+  "notes": "Stainless-housing variant; jeelex.ru product page (https://jeelex.ru/catalog/poverhnostnye-nasosy-dzhambo/poverhnostnyj-nasos-dzhambo-70-50-n/) links this same manual and lists same Qmax 70 l/min, Hmax 50 m, 1100 W, suction 9 m."
+ },
+ {
+  "name": "Джилекс Джамбо 60/35 П-К Комфорт",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    25
+   ],
+   [
+    1.86,
+    20
+   ],
+   [
+    2.46,
+    15
+   ],
+   [
+    2.88,
+    10
+   ],
+   [
+    3.3,
+    5
+   ],
+   [
+    3.6,
+    0
+   ]
+  ],
+  "suction": 8,
+  "powerKW": 0.62,
+  "Hmax": 25,
+  "Qmax": 3.6,
+  "src": "https://jeelex.ru/upload/iblock/e8e/gcfls8eeb3sxqg128hnwg4z2gkv1g0eq/DZHAMBO-1.22_25.pdf",
+  "hMeaning": "total pump head at zero suction height, no check valve, 220 V; manual table gives flow Q at fixed head grid 0,5,10,... m (inverted table); tolerance up to 15%"
+ },
+ {
+  "name": "Джилекс Джамбо 70/50 П-К Комфорт",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    35
+   ],
+   [
+    1.8,
+    30
+   ],
+   [
+    2.88,
+    25
+   ],
+   [
+    3.18,
+    20
+   ],
+   [
+    3.42,
+    15
+   ],
+   [
+    3.84,
+    10
+   ],
+   [
+    3.96,
+    5
+   ],
+   [
+    4.2,
+    0
+   ]
+  ],
+  "suction": 9,
+  "powerKW": 1.1,
+  "Hmax": 35,
+  "Qmax": 4.2,
+  "src": "https://jeelex.ru/upload/iblock/e8e/gcfls8eeb3sxqg128hnwg4z2gkv1g0eq/DZHAMBO-1.22_25.pdf",
+  "hMeaning": "total pump head at zero suction height, no check valve, 220 V; manual table gives flow Q at fixed head grid 0,5,10,... m (inverted table); tolerance up to 15%"
+ },
+ {
+  "name": "Джилекс Джамбо 50/28",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    30
+   ],
+   [
+    0.18,
+    25
+   ],
+   [
+    0.48,
+    20
+   ],
+   [
+    1.02,
+    15
+   ],
+   [
+    2.1,
+    10
+   ],
+   [
+    2.64,
+    5
+   ],
+   [
+    3.0,
+    0
+   ]
+  ],
+  "suction": 7,
+  "powerKW": 0.53,
+  "Hmax": 28,
+  "Qmax": 3.0,
+  "src": "https://www.c-o-k.ru/library/instructions/dzhileks/nasosnye-stancii-i-spec-nasosy/23017/118055.pdf",
+  "hMeaning": "total pump head at zero suction height, no check valve, 220 V; manual table gives flow Q at fixed head grid 0,5,10,... m (inverted table); tolerance up to 15%",
+  "notes": "Older manual. Column alignment inferred (7 values over 0..30 m head grid); spec Hmax is 28 m but zero flow falls on the 30 m column - treat as approximate."
+ },
+ {
+  "name": "DAB JET 62 M",
+  "type": "surface",
+  "points": [
+   [
+    0,
+    42
+   ],
+   [
+    0.6,
+    35
+   ],
+   [
+    1.2,
+    29.2
+   ],
+   [
+    1.8,
+    25.6
+   ],
+   [
+    2.4,
+    22.9
+   ]
+  ],
+  "suction": null,
+  "powerKW": 0.72,
+  "Hmax": 42,
+  "Qmax": 2.4,
+  "src": "https://dn.ru/storage/pasport/dab/nasosy/passport_dab_jet.pdf",
+  "hMeaning": "total pump head at given Q (catalog table, Q in m3/h); suction lift not stated numerically in these sources",
+  "notes": "Printed 6th value 21.1 m omitted: one source puts it at 3.0 m3/h, another at 2.7 m3/h. Values identical in https://www.motralec.com/public/fichiers/docs/Dab-JET-Motralec.pdf and https://afripumps.co.za/pdfs/DAB_Jet.pdf; column alignment by order from left (Q=0)."
+ },
+ {
+  "name": "DAB JET 82 M",
+  "type": "surface",
+  "points": [
+   [
+    0,
+    47
+   ],
+   [
+    0.6,
+    40
+   ],
+   [
+    1.2,
+    34
+   ],
+   [
+    1.8,
+    30
+   ],
+   [
+    2.4,
+    26.2
+   ],
+   [
+    3.0,
+    23.5
+   ],
+   [
+    3.6,
+    20.3
+   ]
+  ],
+  "suction": null,
+  "powerKW": 0.85,
+  "Hmax": 47,
+  "Qmax": 3.6,
+  "src": "https://dn.ru/storage/pasport/dab/nasosy/passport_dab_jet.pdf",
+  "hMeaning": "total pump head at given Q (catalog table, Q in m3/h); suction lift not stated numerically in these sources",
+  "notes": "Values identical in https://www.motralec.com/public/fichiers/docs/Dab-JET-Motralec.pdf and https://afripumps.co.za/pdfs/DAB_Jet.pdf; column alignment by order from left (Q=0)."
+ },
+ {
+  "name": "DAB JET 92 M",
+  "type": "surface",
+  "points": [
+   [
+    0,
+    36.2
+   ],
+   [
+    0.6,
+    33.5
+   ],
+   [
+    1.2,
+    31
+   ],
+   [
+    1.8,
+    28.4
+   ],
+   [
+    2.4,
+    26
+   ],
+   [
+    3.0,
+    24
+   ],
+   [
+    3.6,
+    21.8
+   ],
+   [
+    4.2,
+    19.6
+   ],
+   [
+    4.8,
+    17
+   ]
+  ],
+  "suction": null,
+  "powerKW": 0.94,
+  "Hmax": 36.2,
+  "Qmax": 4.8,
+  "src": "https://dn.ru/storage/pasport/dab/nasosy/passport_dab_jet.pdf",
+  "hMeaning": "total pump head at given Q (catalog table, Q in m3/h); suction lift not stated numerically in these sources",
+  "notes": "Only in dn.ru passport; 9 values = full Q grid. Values identical in https://www.motralec.com/public/fichiers/docs/Dab-JET-Motralec.pdf and https://afripumps.co.za/pdfs/DAB_Jet.pdf; column alignment by order from left (Q=0)."
+ },
+ {
+  "name": "DAB JET 102 M",
+  "type": "surface",
+  "points": [
+   [
+    0,
+    53.8
+   ],
+   [
+    0.6,
+    47
+   ],
+   [
+    1.2,
+    41
+   ],
+   [
+    1.8,
+    36.3
+   ],
+   [
+    2.4,
+    32.4
+   ],
+   [
+    3.0,
+    28.8
+   ],
+   [
+    3.6,
+    25.8
+   ]
+  ],
+  "suction": null,
+  "powerKW": 1.13,
+  "Hmax": 53.8,
+  "Qmax": 3.6,
+  "src": "https://dn.ru/storage/pasport/dab/nasosy/passport_dab_jet.pdf",
+  "hMeaning": "total pump head at given Q (catalog table, Q in m3/h); suction lift not stated numerically in these sources",
+  "notes": "Values identical in https://www.motralec.com/public/fichiers/docs/Dab-JET-Motralec.pdf and https://afripumps.co.za/pdfs/DAB_Jet.pdf; column alignment by order from left (Q=0)."
+ },
+ {
+  "name": "DAB JET 112 M",
+  "type": "surface",
+  "points": [
+   [
+    0,
+    61
+   ],
+   [
+    0.6,
+    54
+   ],
+   [
+    1.2,
+    47.8
+   ],
+   [
+    1.8,
+    42.8
+   ],
+   [
+    2.4,
+    38.8
+   ],
+   [
+    3.0,
+    34.8
+   ],
+   [
+    3.6,
+    20
+   ]
+  ],
+  "suction": null,
+  "powerKW": 1.4,
+  "Hmax": 61,
+  "Qmax": 3.6,
+  "src": "https://dn.ru/storage/pasport/dab/nasosy/passport_dab_jet.pdf",
+  "hMeaning": "total pump head at given Q (catalog table, Q in m3/h); suction lift not stated numerically in these sources",
+  "notes": "Last point 20 m @3.6 m3/h printed identically in all 3 sources but breaks the curve trend - possible DAB misprint. Values identical in https://www.motralec.com/public/fichiers/docs/Dab-JET-Motralec.pdf and https://afripumps.co.za/pdfs/DAB_Jet.pdf; column alignment by order from left (Q=0)."
+ },
+ {
+  "name": "DAB JET 132 M",
+  "type": "surface",
+  "points": [
+   [
+    0,
+    48.3
+   ],
+   [
+    0.6,
+    45.6
+   ],
+   [
+    1.2,
+    42.8
+   ],
+   [
+    1.8,
+    40
+   ],
+   [
+    2.4,
+    37.6
+   ],
+   [
+    3.0,
+    35
+   ],
+   [
+    3.6,
+    32.5
+   ],
+   [
+    4.2,
+    30
+   ],
+   [
+    4.8,
+    27.2
+   ]
+  ],
+  "suction": null,
+  "powerKW": 1.49,
+  "Hmax": 48.3,
+  "Qmax": 4.8,
+  "src": "https://dn.ru/storage/pasport/dab/nasosy/passport_dab_jet.pdf",
+  "hMeaning": "total pump head at given Q (catalog table, Q in m3/h); suction lift not stated numerically in these sources",
+  "notes": "Values identical in https://www.motralec.com/public/fichiers/docs/Dab-JET-Motralec.pdf and https://afripumps.co.za/pdfs/DAB_Jet.pdf; column alignment by order from left (Q=0)."
+ },
+ {
+  "name": "Pedrollo JSWm 1C",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    35
+   ],
+   [
+    0.3,
+    32
+   ],
+   [
+    0.6,
+    28.5
+   ],
+   [
+    1.2,
+    23.5
+   ],
+   [
+    1.5,
+    21
+   ],
+   [
+    1.8,
+    18.5
+   ],
+   [
+    2.4,
+    15
+   ],
+   [
+    2.7,
+    13.5
+   ],
+   [
+    3.0,
+    12
+   ],
+   [
+    3.6,
+    10
+   ]
+  ],
+  "suction": 9,
+  "powerKW": null,
+  "Hmax": 35,
+  "Qmax": 3.6,
+  "src": "https://master-water.ru/files/pdf/jsw1_ru_50hz.pdf",
+  "hMeaning": "total pump head, curves at HS=0 m (catalog table, Pedrollo RU 50 Hz)",
+  "notes": "Only P2 (motor output) given; P1 not in source. Suction: manometric suction head up to 9 m.",
+  "powerP2kW": 0.37
+ },
+ {
+  "name": "Pedrollo JSWm 1B",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    37
+   ],
+   [
+    0.3,
+    34
+   ],
+   [
+    0.6,
+    30.5
+   ],
+   [
+    1.2,
+    25.5
+   ],
+   [
+    1.5,
+    23
+   ],
+   [
+    1.8,
+    20.5
+   ],
+   [
+    2.4,
+    17
+   ],
+   [
+    2.7,
+    15.5
+   ],
+   [
+    3.0,
+    14
+   ],
+   [
+    3.6,
+    12
+   ]
+  ],
+  "suction": 9,
+  "powerKW": null,
+  "Hmax": 37,
+  "Qmax": 3.6,
+  "src": "https://master-water.ru/files/pdf/jsw1_ru_50hz.pdf",
+  "hMeaning": "total pump head, curves at HS=0 m (catalog table, Pedrollo RU 50 Hz)",
+  "notes": "Only P2 (motor output) given; P1 not in source. Suction: manometric suction head up to 9 m.",
+  "powerP2kW": 0.48
+ },
+ {
+  "name": "Pedrollo JSWm 1A",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    48
+   ],
+   [
+    0.3,
+    43
+   ],
+   [
+    0.6,
+    39
+   ],
+   [
+    1.2,
+    31.5
+   ],
+   [
+    1.5,
+    28.5
+   ],
+   [
+    1.8,
+    26
+   ],
+   [
+    2.4,
+    22
+   ],
+   [
+    2.7,
+    20.5
+   ],
+   [
+    3.0,
+    19
+   ],
+   [
+    3.6,
+    17
+   ]
+  ],
+  "suction": 9,
+  "powerKW": null,
+  "Hmax": 48,
+  "Qmax": 3.6,
+  "src": "https://master-water.ru/files/pdf/jsw1_ru_50hz.pdf",
+  "hMeaning": "total pump head, curves at HS=0 m (catalog table, Pedrollo RU 50 Hz)",
+  "notes": "Only P2 (motor output) given; P1 not in source. Suction: manometric suction head up to 9 m.",
+  "powerP2kW": 0.55
+ },
+ {
+  "name": "Pedrollo JSWm 2C",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    50
+   ],
+   [
+    0.3,
+    47
+   ],
+   [
+    0.6,
+    44
+   ],
+   [
+    1.2,
+    38.5
+   ],
+   [
+    1.5,
+    36
+   ],
+   [
+    1.8,
+    34
+   ],
+   [
+    2.4,
+    29.5
+   ],
+   [
+    2.7,
+    27.5
+   ],
+   [
+    3.0,
+    26
+   ],
+   [
+    3.6,
+    22.5
+   ],
+   [
+    4.2,
+    20
+   ]
+  ],
+  "suction": 9,
+  "powerKW": null,
+  "Hmax": 50,
+  "Qmax": 4.2,
+  "src": "https://master-water.ru/files/pdf/jsw2_ru_50hz.pdf",
+  "hMeaning": "total pump head, curves at HS=0 m (catalog table, Pedrollo RU 50 Hz)",
+  "notes": "Only P2 (motor output) given; P1 not in source. Suction: manometric suction head up to 9 m.",
+  "powerP2kW": 0.75
+ },
+ {
+  "name": "Pedrollo JSWm 2B",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    54
+   ],
+   [
+    0.3,
+    51
+   ],
+   [
+    0.6,
+    48
+   ],
+   [
+    1.2,
+    42.5
+   ],
+   [
+    1.5,
+    40
+   ],
+   [
+    1.8,
+    38
+   ],
+   [
+    2.4,
+    33.5
+   ],
+   [
+    2.7,
+    31.5
+   ],
+   [
+    3.0,
+    30
+   ],
+   [
+    3.6,
+    26.5
+   ],
+   [
+    4.2,
+    24
+   ]
+  ],
+  "suction": 9,
+  "powerKW": null,
+  "Hmax": 54,
+  "Qmax": 4.2,
+  "src": "https://master-water.ru/files/pdf/jsw2_ru_50hz.pdf",
+  "hMeaning": "total pump head, curves at HS=0 m (catalog table, Pedrollo RU 50 Hz)",
+  "notes": "Only P2 (motor output) given; P1 not in source. Suction: manometric suction head up to 9 m.",
+  "powerP2kW": 0.9
+ },
+ {
+  "name": "Pedrollo JSWm 2A",
+  "type": "surface",
+  "points": [
+   [
+    0.0,
+    58
+   ],
+   [
+    0.3,
+    55
+   ],
+   [
+    0.6,
+    52
+   ],
+   [
+    1.2,
+    46.5
+   ],
+   [
+    1.5,
+    44
+   ],
+   [
+    1.8,
+    42
+   ],
+   [
+    2.4,
+    37.5
+   ],
+   [
+    2.7,
+    35.5
+   ],
+   [
+    3.0,
+    34
+   ],
+   [
+    3.6,
+    31
+   ],
+   [
+    4.2,
+    28
+   ]
+  ],
+  "suction": 9,
+  "powerKW": null,
+  "Hmax": 58,
+  "Qmax": 4.2,
+  "src": "https://master-water.ru/files/pdf/jsw2_ru_50hz.pdf",
+  "hMeaning": "total pump head, curves at HS=0 m (catalog table, Pedrollo RU 50 Hz)",
+  "notes": "Only P2 (motor output) given; P1 not in source. Suction: manometric suction head up to 9 m.",
+  "powerP2kW": 1.1
+ }
+]
